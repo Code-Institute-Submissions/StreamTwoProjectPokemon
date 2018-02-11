@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ce0c18-5965-4ca1-a4c3-a2730bf18f06" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StreamTwoProjectPokemon.py" afterPath="$PROJECT_DIR$/StreamTwoProjectPokemon.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/pokemon_data.csv" afterPath="$PROJECT_DIR$/data/pokemon_data.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000003" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/journal/WiredTigerPreplog.0000000001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/journal/WiredTigerPreplog.0000000002" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +18,8 @@
       <file leaf-file-name="StreamTwoProjectPokemon.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StreamTwoProjectPokemon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -104,6 +104,11 @@
             <path>
               <item name="StreamTwoProjectPokemon" type="b2602c69:ProjectViewProjectNode" />
               <item name="StreamTwoProjectPokemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StreamTwoProjectPokemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StreamTwoProjectPokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StreamTwoProjectPokemon" type="b2602c69:ProjectViewProjectNode" />
@@ -322,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StreamTwoProjectPokemon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
