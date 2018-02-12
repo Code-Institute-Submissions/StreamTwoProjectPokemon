@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ce0c18-5965-4ca1-a4c3-a2730bf18f06" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000003" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/journal/WiredTigerPreplog.0000000001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/journal/WiredTigerPreplog.0000000002" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/collection-5-5285064748801386335.wt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/index-6-5285064748801386335.wt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/WiredTiger.wt" afterPath="$PROJECT_DIR$/data/WiredTiger.wt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/_mdb_catalog.wt" afterPath="$PROJECT_DIR$/data/_mdb_catalog.wt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/collection-2-2844047122814968628.wt" afterPath="$PROJECT_DIR$/data/collection-2-2844047122814968628.wt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/index-3-2844047122814968628.wt" afterPath="$PROJECT_DIR$/data/index-3-2844047122814968628.wt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/mongod.lock" afterPath="$PROJECT_DIR$/data/mongod.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sizeStorer.wt" afterPath="$PROJECT_DIR$/data/sizeStorer.wt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StreamTwoProjectPokemon.py" afterPath="$PROJECT_DIR$/StreamTwoProjectPokemon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/WiredTiger.turtle" afterPath="$PROJECT_DIR$/data/WiredTiger.turtle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/logs/pokemonLog" afterPath="$PROJECT_DIR$/data/logs/pokemonLog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/pokemon_data.csv" afterPath="$PROJECT_DIR$/data/pokemon_data.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +28,8 @@
       <file leaf-file-name="StreamTwoProjectPokemon.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StreamTwoProjectPokemon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -74,9 +84,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="730" />
+    <option name="x" value="1015" />
     <option name="y" value="20" />
-    <option name="width" value="1189" />
+    <option name="width" value="904" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -104,11 +114,6 @@
             <path>
               <item name="StreamTwoProjectPokemon" type="b2602c69:ProjectViewProjectNode" />
               <item name="StreamTwoProjectPokemon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StreamTwoProjectPokemon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StreamTwoProjectPokemon" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StreamTwoProjectPokemon" type="b2602c69:ProjectViewProjectNode" />
@@ -201,10 +206,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="730" y="20" width="1189" height="1000" extended-state="0" />
+    <frame x="1015" y="20" width="904" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26306465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27725118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -327,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StreamTwoProjectPokemon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

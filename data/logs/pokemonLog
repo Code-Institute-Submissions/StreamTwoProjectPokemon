@@ -854,3 +854,378 @@
 2018-02-11T21:48:14.655+0000 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
 2018-02-11T21:48:14.670+0000 I CONTROL  [consoleTerminate] now exiting
 2018-02-11T21:48:14.684+0000 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-02-11T22:03:22.602+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-11T22:03:23.754+0000 I CONTROL  [initandlisten] MongoDB starting : pid=21408 port=27017 dbpath=d:\StreamTwoProjectPokemon\data 64-bit host=MSI-GE60
+2018-02-11T22:03:23.754+0000 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-02-11T22:03:23.754+0000 I CONTROL  [initandlisten] db version v3.6.1
+2018-02-11T22:03:23.754+0000 I CONTROL  [initandlisten] git version: 025d4f4fe61efd1fb6f0005be20cb45a004093d1
+2018-02-11T22:03:23.764+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-02-11T22:03:23.764+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-11T22:03:23.764+0000 I CONTROL  [initandlisten] modules: none
+2018-02-11T22:03:23.764+0000 I CONTROL  [initandlisten] build environment:
+2018-02-11T22:03:23.764+0000 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-02-11T22:03:23.764+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-11T22:03:23.764+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-11T22:03:23.764+0000 I CONTROL  [initandlisten] options: { config: "d:\StreamTwoProjectPokemon\data\config\mongoconfig.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "d:\StreamTwoProjectPokemon\data" }, systemLog: { destination: "file", logAppend: true, path: "d:\StreamTwoProjectPokemon\data\logs\pokemonLog" } }
+2018-02-11T22:03:23.793+0000 I -        [initandlisten] Detected data files in d:\StreamTwoProjectPokemon\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-11T22:03:23.793+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3543M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-11T22:03:24.299+0000 I CONTROL  [initandlisten] 
+2018-02-11T22:03:24.299+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-02-11T22:03:24.299+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-02-11T22:03:24.299+0000 I CONTROL  [initandlisten] 
+2018-02-11T22:03:24.299+0000 I CONTROL  [initandlisten] 
+2018-02-11T22:03:24.299+0000 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-02-11T22:03:24.300+0000 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-02-11T22:03:24.300+0000 I CONTROL  [initandlisten] 
+2018-02-11T22:03:24.812+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'd:/StreamTwoProjectPokemon/data/diagnostic.data'
+2018-02-11T22:03:24.838+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-11T22:03:24.881+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56385 #1 (1 connection now open)
+2018-02-11T22:03:24.892+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56386 #2 (2 connections now open)
+2018-02-11T22:03:24.893+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56387 #3 (3 connections now open)
+2018-02-11T22:03:24.893+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56388 #4 (4 connections now open)
+2018-02-11T22:03:24.893+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56389 #5 (5 connections now open)
+2018-02-11T22:03:24.911+0000 I NETWORK  [conn1] end connection 127.0.0.1:56385 (4 connections now open)
+2018-02-11T22:03:24.911+0000 I NETWORK  [conn2] end connection 127.0.0.1:56386 (3 connections now open)
+2018-02-11T22:03:24.911+0000 I NETWORK  [conn3] end connection 127.0.0.1:56387 (2 connections now open)
+2018-02-11T22:03:24.911+0000 I NETWORK  [conn4] end connection 127.0.0.1:56388 (1 connection now open)
+2018-02-11T22:03:24.912+0000 I NETWORK  [conn5] end connection 127.0.0.1:56389 (0 connections now open)
+2018-02-11T22:03:26.258+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56392 #6 (1 connection now open)
+2018-02-11T22:03:26.260+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56393 #7 (2 connections now open)
+2018-02-11T22:03:26.261+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56394 #8 (3 connections now open)
+2018-02-11T22:03:26.263+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56395 #9 (4 connections now open)
+2018-02-11T22:03:26.265+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56396 #10 (5 connections now open)
+2018-02-11T22:03:26.325+0000 I NETWORK  [conn6] end connection 127.0.0.1:56392 (4 connections now open)
+2018-02-11T22:03:26.325+0000 I NETWORK  [conn7] end connection 127.0.0.1:56393 (3 connections now open)
+2018-02-11T22:03:26.325+0000 I NETWORK  [conn8] end connection 127.0.0.1:56394 (2 connections now open)
+2018-02-11T22:03:26.325+0000 I NETWORK  [conn9] end connection 127.0.0.1:56395 (1 connection now open)
+2018-02-11T22:03:26.325+0000 I NETWORK  [conn10] end connection 127.0.0.1:56396 (0 connections now open)
+2018-02-11T22:03:27.112+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56397 #11 (1 connection now open)
+2018-02-11T22:03:27.118+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56398 #12 (2 connections now open)
+2018-02-11T22:03:27.120+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56399 #13 (3 connections now open)
+2018-02-11T22:03:27.121+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56400 #14 (4 connections now open)
+2018-02-11T22:03:27.122+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56401 #15 (5 connections now open)
+2018-02-11T22:03:27.233+0000 I NETWORK  [conn11] end connection 127.0.0.1:56397 (4 connections now open)
+2018-02-11T22:03:27.233+0000 I NETWORK  [conn12] end connection 127.0.0.1:56398 (3 connections now open)
+2018-02-11T22:03:27.233+0000 I NETWORK  [conn13] end connection 127.0.0.1:56399 (2 connections now open)
+2018-02-11T22:03:27.233+0000 I NETWORK  [conn14] end connection 127.0.0.1:56400 (1 connection now open)
+2018-02-11T22:03:27.233+0000 I NETWORK  [conn15] end connection 127.0.0.1:56401 (0 connections now open)
+2018-02-11T22:03:36.991+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56402 #16 (1 connection now open)
+2018-02-11T22:03:36.992+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56403 #17 (2 connections now open)
+2018-02-11T22:03:36.994+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56404 #18 (3 connections now open)
+2018-02-11T22:03:36.996+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56405 #19 (4 connections now open)
+2018-02-11T22:03:36.997+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56406 #20 (5 connections now open)
+2018-02-11T22:03:37.097+0000 I NETWORK  [conn16] end connection 127.0.0.1:56402 (4 connections now open)
+2018-02-11T22:03:37.097+0000 I NETWORK  [conn17] end connection 127.0.0.1:56403 (3 connections now open)
+2018-02-11T22:03:37.097+0000 I NETWORK  [conn18] end connection 127.0.0.1:56404 (2 connections now open)
+2018-02-11T22:03:37.097+0000 I NETWORK  [conn19] end connection 127.0.0.1:56405 (1 connection now open)
+2018-02-11T22:03:37.097+0000 I NETWORK  [conn20] end connection 127.0.0.1:56406 (0 connections now open)
+2018-02-11T22:13:06.317+0000 I CONTROL  [thread21] Ctrl-C signal
+2018-02-11T22:13:06.317+0000 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-02-11T22:13:06.317+0000 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-02-11T22:13:06.318+0000 F CONTROL  [thread22] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-02-11T22:13:06.318+0000 F CONTROL  [thread22] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-02-11T22:13:07.008+0000 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-02-11T22:13:08.015+0000 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-02-11T22:13:10.494+0000 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-02-11T22:13:10.497+0000 I CONTROL  [consoleTerminate] now exiting
+2018-02-11T22:13:10.498+0000 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-02-12T18:14:36.267+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-12T18:14:37.623+0000 I CONTROL  [initandlisten] MongoDB starting : pid=21156 port=27017 dbpath=d:\StreamTwoProjectPokemon\data 64-bit host=MSI-GE60
+2018-02-12T18:14:37.623+0000 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-02-12T18:14:37.624+0000 I CONTROL  [initandlisten] db version v3.6.1
+2018-02-12T18:14:37.624+0000 I CONTROL  [initandlisten] git version: 025d4f4fe61efd1fb6f0005be20cb45a004093d1
+2018-02-12T18:14:37.634+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-02-12T18:14:37.634+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-12T18:14:37.634+0000 I CONTROL  [initandlisten] modules: none
+2018-02-12T18:14:37.634+0000 I CONTROL  [initandlisten] build environment:
+2018-02-12T18:14:37.634+0000 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-02-12T18:14:37.634+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-12T18:14:37.634+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-12T18:14:37.634+0000 I CONTROL  [initandlisten] options: { config: "d:\StreamTwoProjectPokemon\data\config\mongoconfig.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "d:\StreamTwoProjectPokemon\data" }, systemLog: { destination: "file", logAppend: true, path: "d:\StreamTwoProjectPokemon\data\logs\pokemonLog" } }
+2018-02-12T18:14:37.664+0000 I -        [initandlisten] Detected data files in d:\StreamTwoProjectPokemon\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-12T18:14:37.664+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3543M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-12T18:14:38.861+0000 I STORAGE  [initandlisten] WiredTiger message [1518459278:861339][21156:140722205888640], txn-recover: Main recovery loop: starting at 1/6912
+2018-02-12T18:14:39.272+0000 I STORAGE  [initandlisten] WiredTiger message [1518459279:272635][21156:140722205888640], txn-recover: Recovering log 1 through 2
+2018-02-12T18:14:39.818+0000 I STORAGE  [initandlisten] WiredTiger message [1518459279:818609][21156:140722205888640], txn-recover: Recovering log 2 through 2
+2018-02-12T18:14:40.878+0000 I CONTROL  [initandlisten] 
+2018-02-12T18:14:40.878+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-02-12T18:14:40.878+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-02-12T18:14:40.878+0000 I CONTROL  [initandlisten] 
+2018-02-12T18:14:40.878+0000 I CONTROL  [initandlisten] 
+2018-02-12T18:14:40.878+0000 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-02-12T18:14:40.878+0000 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-02-12T18:14:40.878+0000 I CONTROL  [initandlisten] 
+2018-02-12T18:14:41.728+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'd:/StreamTwoProjectPokemon/data/diagnostic.data'
+2018-02-12T18:14:41.834+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-12T18:15:02.094+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58456 #1 (1 connection now open)
+2018-02-12T18:15:02.106+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58457 #2 (2 connections now open)
+2018-02-12T18:15:02.106+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58458 #3 (3 connections now open)
+2018-02-12T18:15:02.107+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58459 #4 (4 connections now open)
+2018-02-12T18:15:02.107+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58460 #5 (5 connections now open)
+2018-02-12T18:15:02.199+0000 I NETWORK  [conn1] end connection 127.0.0.1:58456 (4 connections now open)
+2018-02-12T18:15:02.201+0000 I NETWORK  [conn2] end connection 127.0.0.1:58457 (3 connections now open)
+2018-02-12T18:15:02.201+0000 I NETWORK  [conn3] end connection 127.0.0.1:58458 (2 connections now open)
+2018-02-12T18:15:02.202+0000 I NETWORK  [conn4] end connection 127.0.0.1:58459 (1 connection now open)
+2018-02-12T18:15:02.203+0000 I NETWORK  [conn5] end connection 127.0.0.1:58460 (0 connections now open)
+2018-02-12T18:15:03.591+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58461 #6 (1 connection now open)
+2018-02-12T18:15:03.594+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58462 #7 (2 connections now open)
+2018-02-12T18:15:03.600+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58463 #8 (3 connections now open)
+2018-02-12T18:15:03.604+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58464 #9 (4 connections now open)
+2018-02-12T18:15:03.606+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58465 #10 (5 connections now open)
+2018-02-12T18:15:03.684+0000 I NETWORK  [conn6] end connection 127.0.0.1:58461 (4 connections now open)
+2018-02-12T18:15:03.685+0000 I NETWORK  [conn7] end connection 127.0.0.1:58462 (3 connections now open)
+2018-02-12T18:15:03.685+0000 I NETWORK  [conn8] end connection 127.0.0.1:58463 (2 connections now open)
+2018-02-12T18:15:03.685+0000 I NETWORK  [conn9] end connection 127.0.0.1:58464 (1 connection now open)
+2018-02-12T18:15:03.685+0000 I NETWORK  [conn10] end connection 127.0.0.1:58465 (0 connections now open)
+2018-02-12T18:15:04.322+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58466 #11 (1 connection now open)
+2018-02-12T18:15:04.322+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58467 #12 (2 connections now open)
+2018-02-12T18:15:04.323+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58468 #13 (3 connections now open)
+2018-02-12T18:15:04.324+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58469 #14 (4 connections now open)
+2018-02-12T18:15:04.326+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58470 #15 (5 connections now open)
+2018-02-12T18:15:04.479+0000 I NETWORK  [conn11] end connection 127.0.0.1:58466 (4 connections now open)
+2018-02-12T18:15:04.481+0000 I NETWORK  [conn12] end connection 127.0.0.1:58467 (3 connections now open)
+2018-02-12T18:15:04.483+0000 I NETWORK  [conn13] end connection 127.0.0.1:58468 (2 connections now open)
+2018-02-12T18:15:04.483+0000 I NETWORK  [conn14] end connection 127.0.0.1:58469 (1 connection now open)
+2018-02-12T18:15:04.483+0000 I NETWORK  [conn15] end connection 127.0.0.1:58470 (0 connections now open)
+2018-02-12T18:15:10.814+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58472 #16 (1 connection now open)
+2018-02-12T18:15:10.815+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58473 #17 (2 connections now open)
+2018-02-12T18:15:10.816+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58474 #18 (3 connections now open)
+2018-02-12T18:15:10.817+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58475 #19 (4 connections now open)
+2018-02-12T18:15:10.818+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58476 #20 (5 connections now open)
+2018-02-12T18:15:10.932+0000 I NETWORK  [conn16] end connection 127.0.0.1:58472 (4 connections now open)
+2018-02-12T18:15:10.932+0000 I NETWORK  [conn17] end connection 127.0.0.1:58473 (3 connections now open)
+2018-02-12T18:15:10.933+0000 I NETWORK  [conn18] end connection 127.0.0.1:58474 (2 connections now open)
+2018-02-12T18:15:10.933+0000 I NETWORK  [conn19] end connection 127.0.0.1:58475 (1 connection now open)
+2018-02-12T18:15:10.934+0000 I NETWORK  [conn20] end connection 127.0.0.1:58476 (0 connections now open)
+2018-02-12T18:15:22.914+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58478 #21 (1 connection now open)
+2018-02-12T18:15:22.914+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58479 #22 (2 connections now open)
+2018-02-12T18:15:22.915+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58480 #23 (3 connections now open)
+2018-02-12T18:15:22.916+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58481 #24 (4 connections now open)
+2018-02-12T18:15:22.917+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58482 #25 (5 connections now open)
+2018-02-12T18:15:23.069+0000 I COMMAND  [conn23] query pokemonData.pokemon command: { find: "pokemon", filter: {}, ntoreturn: 50, sort: { _id: 1 } } planSummary: IXSCAN { _id: 1 } cursorid:19333394619 ntoreturn:50 ntoskip:0 keysExamined:50 docsExamined:50 numYields:1 nreturned:50 reslen:10203 locks:{ Global: { acquireCount: { r: 4 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { r: 2 } } } 113ms
+2018-02-12T18:15:23.097+0000 I NETWORK  [conn21] end connection 127.0.0.1:58478 (4 connections now open)
+2018-02-12T18:15:23.097+0000 I NETWORK  [conn22] end connection 127.0.0.1:58479 (3 connections now open)
+2018-02-12T18:15:23.097+0000 I NETWORK  [conn23] end connection 127.0.0.1:58480 (2 connections now open)
+2018-02-12T18:15:23.098+0000 I NETWORK  [conn24] end connection 127.0.0.1:58481 (1 connection now open)
+2018-02-12T18:15:23.098+0000 I NETWORK  [conn25] end connection 127.0.0.1:58482 (0 connections now open)
+2018-02-12T18:15:55.206+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58485 #26 (1 connection now open)
+2018-02-12T18:15:55.206+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58486 #27 (2 connections now open)
+2018-02-12T18:15:55.207+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58487 #28 (3 connections now open)
+2018-02-12T18:15:55.208+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58488 #29 (4 connections now open)
+2018-02-12T18:15:55.208+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58489 #30 (5 connections now open)
+2018-02-12T18:15:55.232+0000 I NETWORK  [conn26] end connection 127.0.0.1:58485 (4 connections now open)
+2018-02-12T18:15:55.232+0000 I NETWORK  [conn27] end connection 127.0.0.1:58486 (3 connections now open)
+2018-02-12T18:15:55.232+0000 I NETWORK  [conn28] end connection 127.0.0.1:58487 (2 connections now open)
+2018-02-12T18:15:55.233+0000 I NETWORK  [conn29] end connection 127.0.0.1:58488 (1 connection now open)
+2018-02-12T18:15:55.233+0000 I NETWORK  [conn30] end connection 127.0.0.1:58489 (0 connections now open)
+2018-02-12T18:18:24.870+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58500 #31 (1 connection now open)
+2018-02-12T18:18:24.872+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58501 #32 (2 connections now open)
+2018-02-12T18:18:24.876+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58502 #33 (3 connections now open)
+2018-02-12T18:18:24.877+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58503 #34 (4 connections now open)
+2018-02-12T18:18:24.877+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58504 #35 (5 connections now open)
+2018-02-12T18:18:24.904+0000 I NETWORK  [conn31] end connection 127.0.0.1:58500 (4 connections now open)
+2018-02-12T18:18:24.904+0000 I NETWORK  [conn32] end connection 127.0.0.1:58501 (3 connections now open)
+2018-02-12T18:18:24.904+0000 I NETWORK  [conn33] end connection 127.0.0.1:58502 (2 connections now open)
+2018-02-12T18:18:24.904+0000 I NETWORK  [conn34] end connection 127.0.0.1:58503 (1 connection now open)
+2018-02-12T18:18:24.905+0000 I NETWORK  [conn35] end connection 127.0.0.1:58504 (0 connections now open)
+2018-02-12T18:18:26.003+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58505 #36 (1 connection now open)
+2018-02-12T18:18:26.005+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58506 #37 (2 connections now open)
+2018-02-12T18:18:26.008+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58507 #38 (3 connections now open)
+2018-02-12T18:18:26.010+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58508 #39 (4 connections now open)
+2018-02-12T18:18:26.011+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58509 #40 (5 connections now open)
+2018-02-12T18:18:26.042+0000 I NETWORK  [conn36] end connection 127.0.0.1:58505 (4 connections now open)
+2018-02-12T18:18:26.043+0000 I NETWORK  [conn37] end connection 127.0.0.1:58506 (3 connections now open)
+2018-02-12T18:18:26.043+0000 I NETWORK  [conn38] end connection 127.0.0.1:58507 (2 connections now open)
+2018-02-12T18:18:26.043+0000 I NETWORK  [conn39] end connection 127.0.0.1:58508 (1 connection now open)
+2018-02-12T18:18:26.043+0000 I NETWORK  [conn40] end connection 127.0.0.1:58509 (0 connections now open)
+2018-02-12T18:18:27.561+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58510 #41 (1 connection now open)
+2018-02-12T18:18:27.562+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58511 #42 (2 connections now open)
+2018-02-12T18:18:27.563+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58512 #43 (3 connections now open)
+2018-02-12T18:18:27.564+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58513 #44 (4 connections now open)
+2018-02-12T18:18:27.566+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58514 #45 (5 connections now open)
+2018-02-12T18:18:27.588+0000 I NETWORK  [conn41] end connection 127.0.0.1:58510 (4 connections now open)
+2018-02-12T18:18:27.588+0000 I NETWORK  [conn42] end connection 127.0.0.1:58511 (3 connections now open)
+2018-02-12T18:18:27.588+0000 I NETWORK  [conn43] end connection 127.0.0.1:58512 (2 connections now open)
+2018-02-12T18:18:27.588+0000 I NETWORK  [conn44] end connection 127.0.0.1:58513 (1 connection now open)
+2018-02-12T18:18:27.589+0000 I NETWORK  [conn45] end connection 127.0.0.1:58514 (0 connections now open)
+2018-02-12T18:18:33.261+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58515 #46 (1 connection now open)
+2018-02-12T18:18:33.262+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58516 #47 (2 connections now open)
+2018-02-12T18:18:33.263+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58517 #48 (3 connections now open)
+2018-02-12T18:18:33.265+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58518 #49 (4 connections now open)
+2018-02-12T18:18:33.266+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58519 #50 (5 connections now open)
+2018-02-12T18:18:33.292+0000 I NETWORK  [conn46] end connection 127.0.0.1:58515 (4 connections now open)
+2018-02-12T18:18:33.292+0000 I NETWORK  [conn47] end connection 127.0.0.1:58516 (3 connections now open)
+2018-02-12T18:18:33.292+0000 I NETWORK  [conn48] end connection 127.0.0.1:58517 (2 connections now open)
+2018-02-12T18:18:33.292+0000 I NETWORK  [conn49] end connection 127.0.0.1:58518 (1 connection now open)
+2018-02-12T18:18:33.292+0000 I NETWORK  [conn50] end connection 127.0.0.1:58519 (0 connections now open)
+2018-02-12T18:18:40.045+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58520 #51 (1 connection now open)
+2018-02-12T18:18:40.046+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58521 #52 (2 connections now open)
+2018-02-12T18:18:40.050+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58522 #53 (3 connections now open)
+2018-02-12T18:18:40.052+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58523 #54 (4 connections now open)
+2018-02-12T18:18:40.054+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58524 #55 (5 connections now open)
+2018-02-12T18:18:40.075+0000 I NETWORK  [conn51] end connection 127.0.0.1:58520 (4 connections now open)
+2018-02-12T18:18:40.075+0000 I NETWORK  [conn52] end connection 127.0.0.1:58521 (3 connections now open)
+2018-02-12T18:18:40.075+0000 I NETWORK  [conn53] end connection 127.0.0.1:58522 (2 connections now open)
+2018-02-12T18:18:40.076+0000 I NETWORK  [conn54] end connection 127.0.0.1:58523 (1 connection now open)
+2018-02-12T18:18:40.076+0000 I NETWORK  [conn55] end connection 127.0.0.1:58524 (0 connections now open)
+2018-02-12T18:18:45.729+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58525 #56 (1 connection now open)
+2018-02-12T18:18:45.732+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58526 #57 (2 connections now open)
+2018-02-12T18:18:45.740+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58527 #58 (3 connections now open)
+2018-02-12T18:18:45.743+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58528 #59 (4 connections now open)
+2018-02-12T18:18:45.743+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58529 #60 (5 connections now open)
+2018-02-12T18:18:45.773+0000 I NETWORK  [conn56] end connection 127.0.0.1:58525 (4 connections now open)
+2018-02-12T18:18:45.774+0000 I NETWORK  [conn57] end connection 127.0.0.1:58526 (3 connections now open)
+2018-02-12T18:18:45.774+0000 I NETWORK  [conn58] end connection 127.0.0.1:58527 (2 connections now open)
+2018-02-12T18:18:45.774+0000 I NETWORK  [conn59] end connection 127.0.0.1:58528 (1 connection now open)
+2018-02-12T18:18:45.774+0000 I NETWORK  [conn60] end connection 127.0.0.1:58529 (0 connections now open)
+2018-02-12T18:18:46.285+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58530 #61 (1 connection now open)
+2018-02-12T18:18:46.287+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58531 #62 (2 connections now open)
+2018-02-12T18:18:46.290+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58532 #63 (3 connections now open)
+2018-02-12T18:18:46.291+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58533 #64 (4 connections now open)
+2018-02-12T18:18:46.291+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58534 #65 (5 connections now open)
+2018-02-12T18:18:46.312+0000 I NETWORK  [conn61] end connection 127.0.0.1:58530 (4 connections now open)
+2018-02-12T18:18:46.312+0000 I NETWORK  [conn62] end connection 127.0.0.1:58531 (3 connections now open)
+2018-02-12T18:18:46.312+0000 I NETWORK  [conn63] end connection 127.0.0.1:58532 (2 connections now open)
+2018-02-12T18:18:46.312+0000 I NETWORK  [conn64] end connection 127.0.0.1:58533 (1 connection now open)
+2018-02-12T18:18:46.312+0000 I NETWORK  [conn65] end connection 127.0.0.1:58534 (0 connections now open)
+2018-02-12T18:19:43.612+0000 I COMMAND  [thread66] command config.$cmd command: createIndexes { createIndexes: "system.sessions", indexes: [ { key: { lastUse: 1 }, name: "lsidTTLIndex", expireAfterSeconds: 1800 } ], $db: "config" } numYields:0 reslen:134 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_msg 748ms
+2018-02-12T18:20:21.052+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58548 #66 (1 connection now open)
+2018-02-12T18:20:21.053+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58549 #67 (2 connections now open)
+2018-02-12T18:20:21.055+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58550 #68 (3 connections now open)
+2018-02-12T18:20:21.059+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58551 #69 (4 connections now open)
+2018-02-12T18:20:21.061+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58552 #70 (5 connections now open)
+2018-02-12T18:20:21.477+0000 I COMMAND  [conn68] CMD: drop pokemonData.pokemon
+2018-02-12T18:20:22.095+0000 I STORAGE  [conn68] Finishing collection drop for pokemonData.pokemon (a509de37-9737-4f78-8a7b-5fcba22fbcb5).
+2018-02-12T18:20:23.631+0000 I COMMAND  [conn68] command pokemonData.pokemon command: drop { drop: "pokemon", $readPreference: { mode: "secondaryPreferred" }, $db: "pokemonData" } numYields:0 reslen:82 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_query 2568ms
+2018-02-12T18:20:23.632+0000 I NETWORK  [conn66] end connection 127.0.0.1:58548 (4 connections now open)
+2018-02-12T18:20:23.632+0000 I NETWORK  [conn67] end connection 127.0.0.1:58549 (3 connections now open)
+2018-02-12T18:20:23.632+0000 I NETWORK  [conn68] end connection 127.0.0.1:58550 (2 connections now open)
+2018-02-12T18:20:23.632+0000 I NETWORK  [conn69] end connection 127.0.0.1:58551 (1 connection now open)
+2018-02-12T18:20:23.632+0000 I NETWORK  [conn70] end connection 127.0.0.1:58552 (0 connections now open)
+2018-02-12T18:20:34.660+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58560 #71 (1 connection now open)
+2018-02-12T18:20:34.661+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58561 #72 (2 connections now open)
+2018-02-12T18:20:34.665+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58562 #73 (3 connections now open)
+2018-02-12T18:20:34.667+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58563 #74 (4 connections now open)
+2018-02-12T18:20:34.671+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58564 #75 (5 connections now open)
+2018-02-12T18:20:34.692+0000 W COMMAND  [conn75] the autoIndexId option is deprecated and will be removed in a future release
+2018-02-12T18:20:34.698+0000 I NETWORK  [conn71] end connection 127.0.0.1:58560 (4 connections now open)
+2018-02-12T18:20:34.698+0000 I NETWORK  [conn72] end connection 127.0.0.1:58561 (3 connections now open)
+2018-02-12T18:20:34.698+0000 I NETWORK  [conn73] end connection 127.0.0.1:58562 (2 connections now open)
+2018-02-12T18:20:34.698+0000 I NETWORK  [conn74] end connection 127.0.0.1:58563 (1 connection now open)
+2018-02-12T18:20:34.698+0000 I NETWORK  [conn75] end connection 127.0.0.1:58564 (0 connections now open)
+2018-02-12T18:20:41.882+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58565 #76 (1 connection now open)
+2018-02-12T18:20:41.893+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58566 #77 (2 connections now open)
+2018-02-12T18:20:41.896+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58567 #78 (3 connections now open)
+2018-02-12T18:20:41.897+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58568 #79 (4 connections now open)
+2018-02-12T18:20:41.900+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58569 #80 (5 connections now open)
+2018-02-12T18:20:41.904+0000 W COMMAND  [conn80] the autoIndexId option is deprecated and will be removed in a future release
+2018-02-12T18:20:41.908+0000 I NETWORK  [conn76] end connection 127.0.0.1:58565 (4 connections now open)
+2018-02-12T18:20:41.909+0000 I NETWORK  [conn77] end connection 127.0.0.1:58566 (3 connections now open)
+2018-02-12T18:20:41.909+0000 I NETWORK  [conn78] end connection 127.0.0.1:58567 (2 connections now open)
+2018-02-12T18:20:41.909+0000 I NETWORK  [conn80] end connection 127.0.0.1:58569 (0 connections now open)
+2018-02-12T18:20:41.909+0000 I NETWORK  [conn79] end connection 127.0.0.1:58568 (1 connection now open)
+2018-02-12T18:20:58.950+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58573 #81 (1 connection now open)
+2018-02-12T18:20:58.953+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58574 #82 (2 connections now open)
+2018-02-12T18:20:58.956+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58575 #83 (3 connections now open)
+2018-02-12T18:20:58.957+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58576 #84 (4 connections now open)
+2018-02-12T18:20:58.958+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58577 #85 (5 connections now open)
+2018-02-12T18:20:58.961+0000 W COMMAND  [conn85] the autoIndexId option is deprecated and will be removed in a future release
+2018-02-12T18:20:58.962+0000 I NETWORK  [conn81] end connection 127.0.0.1:58573 (4 connections now open)
+2018-02-12T18:20:58.962+0000 I NETWORK  [conn82] end connection 127.0.0.1:58574 (3 connections now open)
+2018-02-12T18:20:58.963+0000 I NETWORK  [conn85] end connection 127.0.0.1:58577 (1 connection now open)
+2018-02-12T18:20:58.963+0000 I NETWORK  [conn84] end connection 127.0.0.1:58576 (0 connections now open)
+2018-02-12T18:20:58.963+0000 I NETWORK  [conn83] end connection 127.0.0.1:58575 (2 connections now open)
+2018-02-12T18:21:02.435+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58578 #86 (1 connection now open)
+2018-02-12T18:21:02.436+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58579 #87 (2 connections now open)
+2018-02-12T18:21:02.437+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58580 #88 (3 connections now open)
+2018-02-12T18:21:02.437+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58581 #89 (4 connections now open)
+2018-02-12T18:21:02.438+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58582 #90 (5 connections now open)
+2018-02-12T18:21:02.440+0000 I NETWORK  [conn86] end connection 127.0.0.1:58578 (4 connections now open)
+2018-02-12T18:21:02.440+0000 I NETWORK  [conn87] end connection 127.0.0.1:58579 (3 connections now open)
+2018-02-12T18:21:02.440+0000 I NETWORK  [conn89] end connection 127.0.0.1:58581 (2 connections now open)
+2018-02-12T18:21:02.441+0000 I NETWORK  [conn88] end connection 127.0.0.1:58580 (1 connection now open)
+2018-02-12T18:21:02.441+0000 I NETWORK  [conn90] end connection 127.0.0.1:58582 (0 connections now open)
+2018-02-12T18:21:06.069+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58584 #91 (1 connection now open)
+2018-02-12T18:21:06.070+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58585 #92 (2 connections now open)
+2018-02-12T18:21:06.071+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58586 #93 (3 connections now open)
+2018-02-12T18:21:06.071+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58587 #94 (4 connections now open)
+2018-02-12T18:21:06.072+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58588 #95 (5 connections now open)
+2018-02-12T18:21:06.077+0000 I NETWORK  [conn91] end connection 127.0.0.1:58584 (4 connections now open)
+2018-02-12T18:21:06.078+0000 I NETWORK  [conn92] end connection 127.0.0.1:58585 (3 connections now open)
+2018-02-12T18:21:06.078+0000 I NETWORK  [conn93] end connection 127.0.0.1:58586 (2 connections now open)
+2018-02-12T18:21:06.078+0000 I NETWORK  [conn94] end connection 127.0.0.1:58587 (1 connection now open)
+2018-02-12T18:21:06.078+0000 I NETWORK  [conn95] end connection 127.0.0.1:58588 (0 connections now open)
+2018-02-12T18:21:30.848+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58590 #96 (1 connection now open)
+2018-02-12T18:21:30.853+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58591 #97 (2 connections now open)
+2018-02-12T18:21:30.855+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58592 #98 (3 connections now open)
+2018-02-12T18:21:30.860+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58593 #99 (4 connections now open)
+2018-02-12T18:21:30.861+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58594 #100 (5 connections now open)
+2018-02-12T18:29:31.268+0000 I NETWORK  [conn99] end connection 127.0.0.1:58593 (4 connections now open)
+2018-02-12T18:29:31.269+0000 I NETWORK  [conn98] end connection 127.0.0.1:58592 (3 connections now open)
+2018-02-12T18:29:31.269+0000 I NETWORK  [conn100] end connection 127.0.0.1:58594 (2 connections now open)
+2018-02-12T18:29:31.269+0000 I NETWORK  [conn97] end connection 127.0.0.1:58591 (1 connection now open)
+2018-02-12T18:29:31.270+0000 I NETWORK  [conn96] end connection 127.0.0.1:58590 (0 connections now open)
+2018-02-12T18:29:50.517+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58676 #101 (1 connection now open)
+2018-02-12T18:29:50.521+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58677 #102 (2 connections now open)
+2018-02-12T18:29:50.523+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58678 #103 (3 connections now open)
+2018-02-12T18:29:50.524+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58679 #104 (4 connections now open)
+2018-02-12T18:29:50.526+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58680 #105 (5 connections now open)
+2018-02-12T18:29:50.543+0000 I NETWORK  [conn101] end connection 127.0.0.1:58676 (4 connections now open)
+2018-02-12T18:29:50.543+0000 I NETWORK  [conn102] end connection 127.0.0.1:58677 (3 connections now open)
+2018-02-12T18:29:50.543+0000 I NETWORK  [conn103] end connection 127.0.0.1:58678 (2 connections now open)
+2018-02-12T18:29:50.543+0000 I NETWORK  [conn104] end connection 127.0.0.1:58679 (1 connection now open)
+2018-02-12T18:29:50.543+0000 I NETWORK  [conn105] end connection 127.0.0.1:58680 (0 connections now open)
+2018-02-12T18:30:06.027+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58686 #106 (1 connection now open)
+2018-02-12T18:30:06.169+0000 I STORAGE  [conn106] createCollection: pokemonData.pokemon with generated UUID: 304796c3-be9f-4a08-b44c-ca95d0af447f
+2018-02-12T18:30:06.506+0000 I COMMAND  [conn106] command pokemonData.pokemon command: insert { insert: "pokemon", writeConcern: { getLastError: 1, w: 1 }, ordered: false, $db: "pokemonData" } ninserted:721 keysInserted:721 numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 14, w: 14 } }, Database: { acquireCount: { w: 13, W: 1 } }, Collection: { acquireCount: { w: 13 } } } protocol:op_query 360ms
+2018-02-12T18:30:06.515+0000 I NETWORK  [conn106] end connection 127.0.0.1:58686 (0 connections now open)
+2018-02-12T18:30:09.497+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58687 #107 (1 connection now open)
+2018-02-12T18:30:09.499+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58688 #108 (2 connections now open)
+2018-02-12T18:30:09.500+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58689 #109 (3 connections now open)
+2018-02-12T18:30:09.502+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58690 #110 (4 connections now open)
+2018-02-12T18:30:09.504+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58691 #111 (5 connections now open)
+2018-02-12T18:30:09.512+0000 I NETWORK  [conn107] end connection 127.0.0.1:58687 (4 connections now open)
+2018-02-12T18:30:09.512+0000 I NETWORK  [conn108] end connection 127.0.0.1:58688 (3 connections now open)
+2018-02-12T18:30:09.512+0000 I NETWORK  [conn109] end connection 127.0.0.1:58689 (2 connections now open)
+2018-02-12T18:30:09.512+0000 I NETWORK  [conn110] end connection 127.0.0.1:58690 (1 connection now open)
+2018-02-12T18:30:09.512+0000 I NETWORK  [conn111] end connection 127.0.0.1:58691 (0 connections now open)
+2018-02-12T18:30:10.270+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58692 #112 (1 connection now open)
+2018-02-12T18:30:10.271+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58693 #113 (2 connections now open)
+2018-02-12T18:30:10.272+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58694 #114 (3 connections now open)
+2018-02-12T18:30:10.275+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58695 #115 (4 connections now open)
+2018-02-12T18:30:10.277+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58696 #116 (5 connections now open)
+2018-02-12T18:30:10.292+0000 I NETWORK  [conn112] end connection 127.0.0.1:58692 (4 connections now open)
+2018-02-12T18:30:10.292+0000 I NETWORK  [conn113] end connection 127.0.0.1:58693 (3 connections now open)
+2018-02-12T18:30:10.293+0000 I NETWORK  [conn114] end connection 127.0.0.1:58694 (2 connections now open)
+2018-02-12T18:30:10.293+0000 I NETWORK  [conn115] end connection 127.0.0.1:58695 (1 connection now open)
+2018-02-12T18:30:10.293+0000 I NETWORK  [conn116] end connection 127.0.0.1:58696 (0 connections now open)
+2018-02-12T18:30:11.058+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58697 #117 (1 connection now open)
+2018-02-12T18:30:11.059+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58698 #118 (2 connections now open)
+2018-02-12T18:30:11.059+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58699 #119 (3 connections now open)
+2018-02-12T18:30:11.060+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58700 #120 (4 connections now open)
+2018-02-12T18:30:11.061+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58701 #121 (5 connections now open)
+2018-02-12T18:30:11.101+0000 I NETWORK  [conn117] end connection 127.0.0.1:58697 (4 connections now open)
+2018-02-12T18:30:11.101+0000 I NETWORK  [conn118] end connection 127.0.0.1:58698 (3 connections now open)
+2018-02-12T18:30:11.102+0000 I NETWORK  [conn119] end connection 127.0.0.1:58699 (2 connections now open)
+2018-02-12T18:30:11.102+0000 I NETWORK  [conn120] end connection 127.0.0.1:58700 (1 connection now open)
+2018-02-12T18:30:11.102+0000 I NETWORK  [conn121] end connection 127.0.0.1:58701 (0 connections now open)
+2018-02-12T18:30:17.414+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58703 #122 (1 connection now open)
+2018-02-12T18:30:17.415+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58704 #123 (2 connections now open)
+2018-02-12T18:30:17.415+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58705 #124 (3 connections now open)
+2018-02-12T18:30:17.416+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58706 #125 (4 connections now open)
+2018-02-12T18:30:17.417+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58707 #126 (5 connections now open)
+2018-02-12T18:30:17.440+0000 I NETWORK  [conn122] end connection 127.0.0.1:58703 (4 connections now open)
+2018-02-12T18:30:17.440+0000 I NETWORK  [conn123] end connection 127.0.0.1:58704 (3 connections now open)
+2018-02-12T18:30:17.440+0000 I NETWORK  [conn124] end connection 127.0.0.1:58705 (2 connections now open)
+2018-02-12T18:30:17.440+0000 I NETWORK  [conn125] end connection 127.0.0.1:58706 (1 connection now open)
+2018-02-12T18:30:17.440+0000 I NETWORK  [conn126] end connection 127.0.0.1:58707 (0 connections now open)
+2018-02-12T19:01:15.359+0000 I CONTROL  [thread128] Ctrl-C signal
+2018-02-12T19:01:15.359+0000 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-02-12T19:01:15.359+0000 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-02-12T19:01:15.360+0000 F CONTROL  [thread129] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-02-12T19:01:15.360+0000 F CONTROL  [thread129] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-02-12T19:01:15.393+0000 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-02-12T19:01:15.399+0000 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-02-12T19:01:15.757+0000 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-02-12T19:01:15.760+0000 I CONTROL  [consoleTerminate] now exiting
+2018-02-12T19:01:15.760+0000 I CONTROL  [consoleTerminate] shutting down with code:12
