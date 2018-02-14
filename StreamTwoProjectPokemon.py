@@ -12,11 +12,11 @@ COLLECTION_NAME = 'pokemon'
 
 
 @app.route('/')
-def index():
+def home():
     """
     Flask view to serve the first dashboard page
     """
-    return render_template("index.html")
+    return render_template("home.html")
 
 
 @app.route('/teambuilder')
