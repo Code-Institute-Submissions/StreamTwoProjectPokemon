@@ -30,4 +30,4 @@ This is a dashboard app that allows the user to delve into Pokemon stats, and bu
 
 ## Testing
 
-##Contributing
+## Contributing

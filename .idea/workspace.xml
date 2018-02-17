@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ce0c18-5965-4ca1-a4c3-a2730bf18f06" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/dc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/keen-dashboards.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/crossfilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/d3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/dc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/keen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lib/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lib/js/graph.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +60,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="544">
-                <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+                <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -499,7 +487,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="544">
-            <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
