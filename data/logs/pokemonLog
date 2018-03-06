@@ -1229,3 +1229,437 @@
 2018-02-12T19:01:15.757+0000 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
 2018-02-12T19:01:15.760+0000 I CONTROL  [consoleTerminate] now exiting
 2018-02-12T19:01:15.760+0000 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-02-28T13:18:50.721+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-02-28T13:18:51.977+0000 I CONTROL  [initandlisten] MongoDB starting : pid=15476 port=27017 dbpath=d:\StreamTwoProjectPokemon\data 64-bit host=MSI-GE60
+2018-02-28T13:18:51.977+0000 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-02-28T13:18:51.977+0000 I CONTROL  [initandlisten] db version v3.6.1
+2018-02-28T13:18:51.977+0000 I CONTROL  [initandlisten] git version: 025d4f4fe61efd1fb6f0005be20cb45a004093d1
+2018-02-28T13:18:51.978+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-02-28T13:18:51.978+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-02-28T13:18:51.978+0000 I CONTROL  [initandlisten] modules: none
+2018-02-28T13:18:51.978+0000 I CONTROL  [initandlisten] build environment:
+2018-02-28T13:18:51.978+0000 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-02-28T13:18:51.978+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-02-28T13:18:51.978+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-02-28T13:18:51.978+0000 I CONTROL  [initandlisten] options: { config: "d:\StreamTwoProjectPokemon\data\config\mongoconfig.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "d:\StreamTwoProjectPokemon\data" }, systemLog: { destination: "file", logAppend: true, path: "d:\StreamTwoProjectPokemon\data\logs\pokemonLog" } }
+2018-02-28T13:18:51.979+0000 I -        [initandlisten] Detected data files in d:\StreamTwoProjectPokemon\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-02-28T13:18:51.980+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3543M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-02-28T13:18:52.931+0000 I STORAGE  [initandlisten] WiredTiger message [1519823932:931438][15476:140704297980032], txn-recover: Main recovery loop: starting at 2/75008
+2018-02-28T13:18:53.153+0000 I STORAGE  [initandlisten] WiredTiger message [1519823933:152595][15476:140704297980032], txn-recover: Recovering log 2 through 3
+2018-02-28T13:18:53.653+0000 I STORAGE  [initandlisten] WiredTiger message [1519823933:652963][15476:140704297980032], txn-recover: Recovering log 3 through 3
+2018-02-28T13:18:55.729+0000 I CONTROL  [initandlisten] 
+2018-02-28T13:18:55.732+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-02-28T13:18:55.732+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-02-28T13:18:55.732+0000 I CONTROL  [initandlisten] 
+2018-02-28T13:18:55.732+0000 I CONTROL  [initandlisten] 
+2018-02-28T13:18:55.733+0000 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-02-28T13:18:55.733+0000 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-02-28T13:18:55.733+0000 I CONTROL  [initandlisten] 
+2018-02-28T13:18:56.025+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'd:/StreamTwoProjectPokemon/data/diagnostic.data'
+2018-02-28T13:18:56.027+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-02-28T13:41:59.001+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64805 #1 (1 connection now open)
+2018-02-28T13:41:59.002+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:64805 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T13:41:59.009+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64806 #2 (2 connections now open)
+2018-02-28T13:41:59.010+0000 I NETWORK  [conn2] received client metadata from 127.0.0.1:64806 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T13:41:59.029+0000 I NETWORK  [conn1] end connection 127.0.0.1:64805 (1 connection now open)
+2018-02-28T13:41:59.029+0000 I NETWORK  [conn2] end connection 127.0.0.1:64806 (0 connections now open)
+2018-02-28T13:42:00.087+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64813 #3 (1 connection now open)
+2018-02-28T13:42:00.087+0000 I NETWORK  [conn3] received client metadata from 127.0.0.1:64813 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T13:42:00.094+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64814 #4 (2 connections now open)
+2018-02-28T13:42:00.095+0000 I NETWORK  [conn4] received client metadata from 127.0.0.1:64814 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T13:42:00.115+0000 I NETWORK  [conn3] end connection 127.0.0.1:64813 (1 connection now open)
+2018-02-28T13:42:00.115+0000 I NETWORK  [conn4] end connection 127.0.0.1:64814 (0 connections now open)
+2018-02-28T13:42:03.102+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64822 #5 (1 connection now open)
+2018-02-28T13:42:03.103+0000 I NETWORK  [conn5] received client metadata from 127.0.0.1:64822 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T13:42:03.108+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64823 #6 (2 connections now open)
+2018-02-28T13:42:03.108+0000 I NETWORK  [conn6] received client metadata from 127.0.0.1:64823 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T13:42:03.124+0000 I NETWORK  [conn5] end connection 127.0.0.1:64822 (1 connection now open)
+2018-02-28T13:42:03.124+0000 I NETWORK  [conn6] end connection 127.0.0.1:64823 (0 connections now open)
+2018-02-28T14:21:07.580+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50378 #7 (1 connection now open)
+2018-02-28T14:21:07.582+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50379 #8 (2 connections now open)
+2018-02-28T14:21:07.584+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50380 #9 (3 connections now open)
+2018-02-28T14:21:07.586+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50381 #10 (4 connections now open)
+2018-02-28T14:21:07.587+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50382 #11 (5 connections now open)
+2018-02-28T14:21:07.665+0000 I NETWORK  [conn7] end connection 127.0.0.1:50378 (4 connections now open)
+2018-02-28T14:21:07.665+0000 I NETWORK  [conn8] end connection 127.0.0.1:50379 (3 connections now open)
+2018-02-28T14:21:07.665+0000 I NETWORK  [conn9] end connection 127.0.0.1:50380 (2 connections now open)
+2018-02-28T14:21:07.665+0000 I NETWORK  [conn10] end connection 127.0.0.1:50381 (1 connection now open)
+2018-02-28T14:21:07.677+0000 I NETWORK  [conn11] end connection 127.0.0.1:50382 (0 connections now open)
+2018-02-28T14:21:09.261+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50384 #12 (1 connection now open)
+2018-02-28T14:21:09.264+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50385 #13 (2 connections now open)
+2018-02-28T14:21:09.265+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50386 #14 (3 connections now open)
+2018-02-28T14:21:09.266+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50387 #15 (4 connections now open)
+2018-02-28T14:21:09.269+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50388 #16 (5 connections now open)
+2018-02-28T14:21:09.326+0000 I NETWORK  [conn12] end connection 127.0.0.1:50384 (4 connections now open)
+2018-02-28T14:21:09.326+0000 I NETWORK  [conn13] end connection 127.0.0.1:50385 (3 connections now open)
+2018-02-28T14:21:09.326+0000 I NETWORK  [conn14] end connection 127.0.0.1:50386 (2 connections now open)
+2018-02-28T14:21:09.326+0000 I NETWORK  [conn15] end connection 127.0.0.1:50387 (1 connection now open)
+2018-02-28T14:21:09.326+0000 I NETWORK  [conn16] end connection 127.0.0.1:50388 (0 connections now open)
+2018-02-28T14:21:10.185+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50389 #17 (1 connection now open)
+2018-02-28T14:21:10.193+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50390 #18 (2 connections now open)
+2018-02-28T14:21:10.195+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50391 #19 (3 connections now open)
+2018-02-28T14:21:10.198+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50392 #20 (4 connections now open)
+2018-02-28T14:21:10.233+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50393 #21 (5 connections now open)
+2018-02-28T14:21:10.399+0000 I NETWORK  [conn17] end connection 127.0.0.1:50389 (4 connections now open)
+2018-02-28T14:21:10.399+0000 I NETWORK  [conn18] end connection 127.0.0.1:50390 (3 connections now open)
+2018-02-28T14:21:10.399+0000 I NETWORK  [conn19] end connection 127.0.0.1:50391 (2 connections now open)
+2018-02-28T14:21:10.399+0000 I NETWORK  [conn20] end connection 127.0.0.1:50392 (1 connection now open)
+2018-02-28T14:21:10.399+0000 I NETWORK  [conn21] end connection 127.0.0.1:50393 (0 connections now open)
+2018-02-28T14:21:31.940+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50413 #22 (1 connection now open)
+2018-02-28T14:21:31.973+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50414 #23 (2 connections now open)
+2018-02-28T14:21:31.975+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50415 #24 (3 connections now open)
+2018-02-28T14:21:31.977+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50416 #25 (4 connections now open)
+2018-02-28T14:21:31.981+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50417 #26 (5 connections now open)
+2018-02-28T14:21:32.080+0000 I NETWORK  [conn22] end connection 127.0.0.1:50413 (4 connections now open)
+2018-02-28T14:21:32.080+0000 I NETWORK  [conn23] end connection 127.0.0.1:50414 (3 connections now open)
+2018-02-28T14:21:32.080+0000 I NETWORK  [conn24] end connection 127.0.0.1:50415 (2 connections now open)
+2018-02-28T14:21:32.080+0000 I NETWORK  [conn25] end connection 127.0.0.1:50416 (1 connection now open)
+2018-02-28T14:21:32.080+0000 I NETWORK  [conn26] end connection 127.0.0.1:50417 (0 connections now open)
+2018-02-28T15:36:31.882+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53885 #27 (1 connection now open)
+2018-02-28T15:36:31.883+0000 I NETWORK  [conn27] received client metadata from 127.0.0.1:53885 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.1" }, os: { type: "Windows", name: "Microsoft Windows 8.1", architecture: "x86_64", version: "6.3 (build 9600)" } }
+2018-02-28T15:36:48.545+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53915 #28 (2 connections now open)
+2018-02-28T15:36:48.546+0000 I NETWORK  [conn28] received client metadata from 127.0.0.1:53915 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T15:36:48.552+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53916 #29 (3 connections now open)
+2018-02-28T15:36:48.553+0000 I NETWORK  [conn29] received client metadata from 127.0.0.1:53916 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T15:36:48.576+0000 I NETWORK  [conn28] end connection 127.0.0.1:53915 (2 connections now open)
+2018-02-28T15:36:48.576+0000 I NETWORK  [conn29] end connection 127.0.0.1:53916 (1 connection now open)
+2018-02-28T15:36:51.654+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53922 #30 (2 connections now open)
+2018-02-28T15:36:51.654+0000 I NETWORK  [conn30] received client metadata from 127.0.0.1:53922 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T15:36:51.660+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53923 #31 (3 connections now open)
+2018-02-28T15:36:51.661+0000 I NETWORK  [conn31] received client metadata from 127.0.0.1:53923 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T15:36:51.683+0000 I NETWORK  [conn30] end connection 127.0.0.1:53922 (2 connections now open)
+2018-02-28T15:36:51.683+0000 I NETWORK  [conn31] end connection 127.0.0.1:53923 (1 connection now open)
+2018-02-28T15:36:53.153+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53929 #32 (2 connections now open)
+2018-02-28T15:36:53.153+0000 I NETWORK  [conn32] received client metadata from 127.0.0.1:53929 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T15:36:53.158+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53930 #33 (3 connections now open)
+2018-02-28T15:36:53.159+0000 I NETWORK  [conn33] received client metadata from 127.0.0.1:53930 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T15:36:53.180+0000 I NETWORK  [conn32] end connection 127.0.0.1:53929 (2 connections now open)
+2018-02-28T15:36:53.180+0000 I NETWORK  [conn33] end connection 127.0.0.1:53930 (1 connection now open)
+2018-02-28T15:36:55.050+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53936 #34 (2 connections now open)
+2018-02-28T15:36:55.050+0000 I NETWORK  [conn34] received client metadata from 127.0.0.1:53936 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T15:36:55.055+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53937 #35 (3 connections now open)
+2018-02-28T15:36:55.055+0000 I NETWORK  [conn35] received client metadata from 127.0.0.1:53937 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-02-28T15:36:55.075+0000 I NETWORK  [conn34] end connection 127.0.0.1:53936 (2 connections now open)
+2018-02-28T15:36:55.075+0000 I NETWORK  [conn35] end connection 127.0.0.1:53937 (1 connection now open)
+2018-02-28T15:37:16.399+0000 I NETWORK  [conn27] end connection 127.0.0.1:53885 (0 connections now open)
+2018-02-28T17:50:27.220+0000 I CONTROL  [thread36] Ctrl-C signal
+2018-02-28T17:50:27.220+0000 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-02-28T17:50:27.221+0000 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-02-28T17:50:27.222+0000 F CONTROL  [thread37] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-02-28T17:50:27.246+0000 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-02-28T17:50:27.251+0000 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-02-28T17:50:27.640+0000 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-02-28T17:50:27.641+0000 I CONTROL  [consoleTerminate] now exiting
+2018-02-28T17:50:27.641+0000 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-03-06T13:05:03.282+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-03-06T13:05:04.559+0000 I CONTROL  [initandlisten] MongoDB starting : pid=16168 port=27017 dbpath=d:\StreamTwoProjectPokemon\data 64-bit host=MSI-GE60
+2018-03-06T13:05:04.559+0000 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-03-06T13:05:04.559+0000 I CONTROL  [initandlisten] db version v3.6.1
+2018-03-06T13:05:04.559+0000 I CONTROL  [initandlisten] git version: 025d4f4fe61efd1fb6f0005be20cb45a004093d1
+2018-03-06T13:05:04.569+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-03-06T13:05:04.569+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-03-06T13:05:04.570+0000 I CONTROL  [initandlisten] modules: none
+2018-03-06T13:05:04.570+0000 I CONTROL  [initandlisten] build environment:
+2018-03-06T13:05:04.570+0000 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-03-06T13:05:04.570+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-03-06T13:05:04.570+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-03-06T13:05:04.570+0000 I CONTROL  [initandlisten] options: { config: "d:\StreamTwoProjectPokemon\data\config\mongoconfig.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "d:\StreamTwoProjectPokemon\data" }, systemLog: { destination: "file", logAppend: true, path: "d:\StreamTwoProjectPokemon\data\logs\pokemonLog" } }
+2018-03-06T13:05:04.609+0000 I -        [initandlisten] Detected data files in d:\StreamTwoProjectPokemon\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-03-06T13:05:04.610+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3543M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-03-06T13:05:05.198+0000 I STORAGE  [initandlisten] WiredTiger message [1520341505:197690][16168:140735930175616], txn-recover: Main recovery loop: starting at 3/51968
+2018-03-06T13:05:05.436+0000 I STORAGE  [initandlisten] WiredTiger message [1520341505:435872][16168:140735930175616], txn-recover: Recovering log 3 through 4
+2018-03-06T13:05:05.643+0000 I STORAGE  [initandlisten] WiredTiger message [1520341505:643581][16168:140735930175616], txn-recover: Recovering log 4 through 4
+2018-03-06T13:05:06.379+0000 I CONTROL  [initandlisten] 
+2018-03-06T13:05:06.379+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-03-06T13:05:06.379+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-03-06T13:05:06.379+0000 I CONTROL  [initandlisten] 
+2018-03-06T13:05:06.380+0000 I CONTROL  [initandlisten] 
+2018-03-06T13:05:06.381+0000 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-03-06T13:05:06.382+0000 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-03-06T13:05:06.382+0000 I CONTROL  [initandlisten] 
+2018-03-06T13:05:06.831+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'd:/StreamTwoProjectPokemon/data/diagnostic.data'
+2018-03-06T13:05:06.853+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-03-06T13:07:06.833+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63691 #1 (1 connection now open)
+2018-03-06T13:07:06.861+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:63691 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:07:06.881+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63692 #2 (2 connections now open)
+2018-03-06T13:07:06.882+0000 I NETWORK  [conn2] received client metadata from 127.0.0.1:63692 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:07:07.000+0000 I NETWORK  [conn2] end connection 127.0.0.1:63692 (1 connection now open)
+2018-03-06T13:07:07.000+0000 I NETWORK  [conn1] end connection 127.0.0.1:63691 (0 connections now open)
+2018-03-06T13:10:07.091+0000 I WRITE    [thread3] update config.system.sessions command: { q: { _id: { id: UUID("0d9345c0-a77c-43dd-84be-47d900b4fe71"), uid: BinData(0, E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855) } }, u: { $currentDate: { lastUse: true } }, multi: false, upsert: true } planSummary: IDHACK keysExamined:0 docsExamined:0 nMatched:0 nModified:0 upsert:1 keysInserted:2 numYields:1 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 101ms
+2018-03-06T13:10:07.103+0000 I COMMAND  [thread3] command config.$cmd command: update { update: "system.sessions", ordered: false, allowImplicitCollectionCreation: false, $db: "config" } numYields:0 reslen:155 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_msg 133ms
+2018-03-06T13:13:47.531+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63776 #3 (1 connection now open)
+2018-03-06T13:13:47.531+0000 I NETWORK  [conn3] received client metadata from 127.0.0.1:63776 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:13:47.535+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63777 #4 (2 connections now open)
+2018-03-06T13:13:47.536+0000 I NETWORK  [conn4] received client metadata from 127.0.0.1:63777 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:13:47.575+0000 I NETWORK  [conn3] end connection 127.0.0.1:63776 (1 connection now open)
+2018-03-06T13:13:47.575+0000 I NETWORK  [conn4] end connection 127.0.0.1:63777 (0 connections now open)
+2018-03-06T13:14:30.608+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63800 #5 (1 connection now open)
+2018-03-06T13:14:30.609+0000 I NETWORK  [conn5] received client metadata from 127.0.0.1:63800 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:14:30.621+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63801 #6 (2 connections now open)
+2018-03-06T13:14:30.621+0000 I NETWORK  [conn6] received client metadata from 127.0.0.1:63801 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:14:30.652+0000 I NETWORK  [conn5] end connection 127.0.0.1:63800 (1 connection now open)
+2018-03-06T13:14:30.652+0000 I NETWORK  [conn6] end connection 127.0.0.1:63801 (0 connections now open)
+2018-03-06T13:14:31.794+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63805 #7 (1 connection now open)
+2018-03-06T13:14:31.794+0000 I NETWORK  [conn7] received client metadata from 127.0.0.1:63805 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:14:31.800+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63806 #8 (2 connections now open)
+2018-03-06T13:14:31.801+0000 I NETWORK  [conn8] received client metadata from 127.0.0.1:63806 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:14:31.826+0000 I NETWORK  [conn7] end connection 127.0.0.1:63805 (1 connection now open)
+2018-03-06T13:14:31.826+0000 I NETWORK  [conn8] end connection 127.0.0.1:63806 (0 connections now open)
+2018-03-06T13:20:08.388+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63904 #9 (1 connection now open)
+2018-03-06T13:20:08.389+0000 I NETWORK  [conn9] received client metadata from 127.0.0.1:63904 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:20:08.392+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:63905 #10 (2 connections now open)
+2018-03-06T13:20:08.393+0000 I NETWORK  [conn10] received client metadata from 127.0.0.1:63905 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:20:08.413+0000 I NETWORK  [conn10] end connection 127.0.0.1:63905 (0 connections now open)
+2018-03-06T13:20:08.413+0000 I NETWORK  [conn9] end connection 127.0.0.1:63904 (1 connection now open)
+2018-03-06T13:38:36.416+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64070 #11 (1 connection now open)
+2018-03-06T13:38:36.419+0000 I NETWORK  [conn11] received client metadata from 127.0.0.1:64070 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:38:36.427+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64071 #12 (2 connections now open)
+2018-03-06T13:38:36.429+0000 I NETWORK  [conn12] received client metadata from 127.0.0.1:64071 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:38:36.456+0000 I NETWORK  [conn11] end connection 127.0.0.1:64070 (1 connection now open)
+2018-03-06T13:38:36.456+0000 I NETWORK  [conn12] end connection 127.0.0.1:64071 (0 connections now open)
+2018-03-06T13:39:37.205+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64099 #13 (1 connection now open)
+2018-03-06T13:39:37.209+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64100 #14 (2 connections now open)
+2018-03-06T13:39:37.214+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64101 #15 (3 connections now open)
+2018-03-06T13:39:37.219+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64102 #16 (4 connections now open)
+2018-03-06T13:39:37.221+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64103 #17 (5 connections now open)
+2018-03-06T13:39:37.324+0000 I NETWORK  [conn13] end connection 127.0.0.1:64099 (4 connections now open)
+2018-03-06T13:39:37.325+0000 I NETWORK  [conn14] end connection 127.0.0.1:64100 (3 connections now open)
+2018-03-06T13:39:37.325+0000 I NETWORK  [conn15] end connection 127.0.0.1:64101 (2 connections now open)
+2018-03-06T13:39:37.325+0000 I NETWORK  [conn16] end connection 127.0.0.1:64102 (1 connection now open)
+2018-03-06T13:39:37.333+0000 I NETWORK  [conn17] end connection 127.0.0.1:64103 (0 connections now open)
+2018-03-06T13:39:39.255+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64104 #18 (1 connection now open)
+2018-03-06T13:39:39.256+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64105 #19 (2 connections now open)
+2018-03-06T13:39:39.257+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64106 #20 (3 connections now open)
+2018-03-06T13:39:39.261+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64107 #21 (4 connections now open)
+2018-03-06T13:39:39.266+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64108 #22 (5 connections now open)
+2018-03-06T13:39:39.323+0000 I NETWORK  [conn18] end connection 127.0.0.1:64104 (4 connections now open)
+2018-03-06T13:39:39.323+0000 I NETWORK  [conn19] end connection 127.0.0.1:64105 (3 connections now open)
+2018-03-06T13:39:39.323+0000 I NETWORK  [conn20] end connection 127.0.0.1:64106 (2 connections now open)
+2018-03-06T13:39:39.323+0000 I NETWORK  [conn21] end connection 127.0.0.1:64107 (1 connection now open)
+2018-03-06T13:39:39.323+0000 I NETWORK  [conn22] end connection 127.0.0.1:64108 (0 connections now open)
+2018-03-06T13:39:40.470+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64109 #23 (1 connection now open)
+2018-03-06T13:39:40.471+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64110 #24 (2 connections now open)
+2018-03-06T13:39:40.472+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64111 #25 (3 connections now open)
+2018-03-06T13:39:40.473+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64112 #26 (4 connections now open)
+2018-03-06T13:39:40.474+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64113 #27 (5 connections now open)
+2018-03-06T13:39:40.603+0000 I NETWORK  [conn23] end connection 127.0.0.1:64109 (4 connections now open)
+2018-03-06T13:39:40.603+0000 I NETWORK  [conn24] end connection 127.0.0.1:64110 (3 connections now open)
+2018-03-06T13:39:40.603+0000 I NETWORK  [conn25] end connection 127.0.0.1:64111 (2 connections now open)
+2018-03-06T13:39:40.603+0000 I NETWORK  [conn26] end connection 127.0.0.1:64112 (1 connection now open)
+2018-03-06T13:39:40.603+0000 I NETWORK  [conn27] end connection 127.0.0.1:64113 (0 connections now open)
+2018-03-06T13:39:55.572+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64135 #28 (1 connection now open)
+2018-03-06T13:39:55.574+0000 I NETWORK  [conn28] received client metadata from 127.0.0.1:64135 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:39:55.582+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64136 #29 (2 connections now open)
+2018-03-06T13:39:55.583+0000 I NETWORK  [conn29] received client metadata from 127.0.0.1:64136 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:39:55.613+0000 I NETWORK  [conn28] end connection 127.0.0.1:64135 (1 connection now open)
+2018-03-06T13:39:55.613+0000 I NETWORK  [conn29] end connection 127.0.0.1:64136 (0 connections now open)
+2018-03-06T13:42:41.604+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64181 #30 (1 connection now open)
+2018-03-06T13:42:41.606+0000 I NETWORK  [conn30] received client metadata from 127.0.0.1:64181 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:42:41.614+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64182 #31 (2 connections now open)
+2018-03-06T13:42:41.616+0000 I NETWORK  [conn31] received client metadata from 127.0.0.1:64182 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:42:41.667+0000 I NETWORK  [conn30] end connection 127.0.0.1:64181 (1 connection now open)
+2018-03-06T13:42:41.668+0000 I NETWORK  [conn31] end connection 127.0.0.1:64182 (0 connections now open)
+2018-03-06T13:42:56.835+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64192 #32 (1 connection now open)
+2018-03-06T13:42:56.838+0000 I NETWORK  [conn32] received client metadata from 127.0.0.1:64192 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:42:56.848+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64193 #33 (2 connections now open)
+2018-03-06T13:42:56.850+0000 I NETWORK  [conn33] received client metadata from 127.0.0.1:64193 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:42:56.951+0000 I NETWORK  [conn32] end connection 127.0.0.1:64192 (1 connection now open)
+2018-03-06T13:42:56.952+0000 I NETWORK  [conn33] end connection 127.0.0.1:64193 (0 connections now open)
+2018-03-06T13:45:09.061+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64242 #34 (1 connection now open)
+2018-03-06T13:45:09.062+0000 I NETWORK  [conn34] received client metadata from 127.0.0.1:64242 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:45:09.074+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64243 #35 (2 connections now open)
+2018-03-06T13:45:09.076+0000 I NETWORK  [conn35] received client metadata from 127.0.0.1:64243 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:45:09.136+0000 I NETWORK  [conn34] end connection 127.0.0.1:64242 (1 connection now open)
+2018-03-06T13:45:09.136+0000 I NETWORK  [conn35] end connection 127.0.0.1:64243 (0 connections now open)
+2018-03-06T13:45:24.916+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64303 #36 (1 connection now open)
+2018-03-06T13:45:24.917+0000 I NETWORK  [conn36] received client metadata from 127.0.0.1:64303 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:45:24.926+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64304 #37 (2 connections now open)
+2018-03-06T13:45:24.927+0000 I NETWORK  [conn37] received client metadata from 127.0.0.1:64304 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:45:24.976+0000 I NETWORK  [conn36] end connection 127.0.0.1:64303 (1 connection now open)
+2018-03-06T13:45:24.976+0000 I NETWORK  [conn37] end connection 127.0.0.1:64304 (0 connections now open)
+2018-03-06T13:45:42.335+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64335 #38 (1 connection now open)
+2018-03-06T13:45:42.337+0000 I NETWORK  [conn38] received client metadata from 127.0.0.1:64335 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:45:42.350+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64336 #39 (2 connections now open)
+2018-03-06T13:45:42.351+0000 I NETWORK  [conn39] received client metadata from 127.0.0.1:64336 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:45:42.395+0000 I NETWORK  [conn38] end connection 127.0.0.1:64335 (1 connection now open)
+2018-03-06T13:45:42.396+0000 I NETWORK  [conn39] end connection 127.0.0.1:64336 (0 connections now open)
+2018-03-06T13:47:59.210+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64372 #40 (1 connection now open)
+2018-03-06T13:47:59.211+0000 I NETWORK  [conn40] received client metadata from 127.0.0.1:64372 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:47:59.216+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64373 #41 (2 connections now open)
+2018-03-06T13:47:59.217+0000 I NETWORK  [conn41] received client metadata from 127.0.0.1:64373 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:47:59.276+0000 I NETWORK  [conn40] end connection 127.0.0.1:64372 (1 connection now open)
+2018-03-06T13:47:59.279+0000 I NETWORK  [conn41] end connection 127.0.0.1:64373 (0 connections now open)
+2018-03-06T13:49:20.727+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64409 #42 (1 connection now open)
+2018-03-06T13:49:20.728+0000 I NETWORK  [conn42] received client metadata from 127.0.0.1:64409 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:49:20.740+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64410 #43 (2 connections now open)
+2018-03-06T13:49:20.742+0000 I NETWORK  [conn43] received client metadata from 127.0.0.1:64410 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:49:20.789+0000 I NETWORK  [conn42] end connection 127.0.0.1:64409 (1 connection now open)
+2018-03-06T13:49:20.789+0000 I NETWORK  [conn43] end connection 127.0.0.1:64410 (0 connections now open)
+2018-03-06T13:51:30.461+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64442 #44 (1 connection now open)
+2018-03-06T13:51:30.463+0000 I NETWORK  [conn44] received client metadata from 127.0.0.1:64442 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:51:30.473+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64443 #45 (2 connections now open)
+2018-03-06T13:51:30.473+0000 I NETWORK  [conn45] received client metadata from 127.0.0.1:64443 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:51:30.518+0000 I NETWORK  [conn44] end connection 127.0.0.1:64442 (1 connection now open)
+2018-03-06T13:51:30.518+0000 I NETWORK  [conn45] end connection 127.0.0.1:64443 (0 connections now open)
+2018-03-06T13:51:41.002+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64476 #46 (1 connection now open)
+2018-03-06T13:51:41.003+0000 I NETWORK  [conn46] received client metadata from 127.0.0.1:64476 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:51:41.008+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64477 #47 (2 connections now open)
+2018-03-06T13:51:41.010+0000 I NETWORK  [conn47] received client metadata from 127.0.0.1:64477 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:51:41.050+0000 I NETWORK  [conn46] end connection 127.0.0.1:64476 (1 connection now open)
+2018-03-06T13:51:41.051+0000 I NETWORK  [conn47] end connection 127.0.0.1:64477 (0 connections now open)
+2018-03-06T13:53:22.257+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64568 #48 (1 connection now open)
+2018-03-06T13:53:22.258+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64569 #49 (2 connections now open)
+2018-03-06T13:53:22.259+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64570 #50 (3 connections now open)
+2018-03-06T13:53:22.261+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64571 #51 (4 connections now open)
+2018-03-06T13:53:22.275+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64572 #52 (5 connections now open)
+2018-03-06T13:53:22.608+0000 I NETWORK  [conn48] end connection 127.0.0.1:64568 (4 connections now open)
+2018-03-06T13:53:22.608+0000 I NETWORK  [conn49] end connection 127.0.0.1:64569 (3 connections now open)
+2018-03-06T13:53:22.608+0000 I NETWORK  [conn50] end connection 127.0.0.1:64570 (2 connections now open)
+2018-03-06T13:53:22.608+0000 I NETWORK  [conn51] end connection 127.0.0.1:64571 (1 connection now open)
+2018-03-06T13:53:22.608+0000 I NETWORK  [conn52] end connection 127.0.0.1:64572 (0 connections now open)
+2018-03-06T13:53:41.802+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64575 #53 (1 connection now open)
+2018-03-06T13:53:41.803+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64576 #54 (2 connections now open)
+2018-03-06T13:53:41.804+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64577 #55 (3 connections now open)
+2018-03-06T13:53:41.805+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64578 #56 (4 connections now open)
+2018-03-06T13:53:41.806+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64579 #57 (5 connections now open)
+2018-03-06T13:53:41.811+0000 I NETWORK  [conn53] end connection 127.0.0.1:64575 (4 connections now open)
+2018-03-06T13:53:41.811+0000 I NETWORK  [conn54] end connection 127.0.0.1:64576 (3 connections now open)
+2018-03-06T13:53:41.811+0000 I NETWORK  [conn55] end connection 127.0.0.1:64577 (2 connections now open)
+2018-03-06T13:53:41.812+0000 I NETWORK  [conn56] end connection 127.0.0.1:64578 (1 connection now open)
+2018-03-06T13:53:41.812+0000 I NETWORK  [conn57] end connection 127.0.0.1:64579 (0 connections now open)
+2018-03-06T13:53:41.814+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64580 #58 (1 connection now open)
+2018-03-06T13:53:41.817+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64581 #59 (2 connections now open)
+2018-03-06T13:53:41.818+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64582 #60 (3 connections now open)
+2018-03-06T13:53:41.818+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64583 #61 (4 connections now open)
+2018-03-06T13:53:41.819+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64584 #62 (5 connections now open)
+2018-03-06T13:53:41.822+0000 I NETWORK  [conn58] end connection 127.0.0.1:64580 (4 connections now open)
+2018-03-06T13:53:41.822+0000 I NETWORK  [conn59] end connection 127.0.0.1:64581 (3 connections now open)
+2018-03-06T13:53:41.823+0000 I NETWORK  [conn60] end connection 127.0.0.1:64582 (2 connections now open)
+2018-03-06T13:53:41.823+0000 I NETWORK  [conn61] end connection 127.0.0.1:64583 (1 connection now open)
+2018-03-06T13:53:41.823+0000 I NETWORK  [conn62] end connection 127.0.0.1:64584 (0 connections now open)
+2018-03-06T13:53:45.083+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64585 #63 (1 connection now open)
+2018-03-06T13:53:45.084+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64586 #64 (2 connections now open)
+2018-03-06T13:53:45.085+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64587 #65 (3 connections now open)
+2018-03-06T13:53:45.086+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64588 #66 (4 connections now open)
+2018-03-06T13:53:45.087+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64589 #67 (5 connections now open)
+2018-03-06T13:53:45.089+0000 I NETWORK  [conn63] end connection 127.0.0.1:64585 (4 connections now open)
+2018-03-06T13:53:45.089+0000 I NETWORK  [conn64] end connection 127.0.0.1:64586 (3 connections now open)
+2018-03-06T13:53:45.090+0000 I NETWORK  [conn65] end connection 127.0.0.1:64587 (2 connections now open)
+2018-03-06T13:53:45.090+0000 I NETWORK  [conn66] end connection 127.0.0.1:64588 (1 connection now open)
+2018-03-06T13:53:45.090+0000 I NETWORK  [conn67] end connection 127.0.0.1:64589 (0 connections now open)
+2018-03-06T13:53:45.092+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64590 #68 (1 connection now open)
+2018-03-06T13:53:45.097+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64591 #69 (2 connections now open)
+2018-03-06T13:53:45.099+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64592 #70 (3 connections now open)
+2018-03-06T13:53:45.099+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64593 #71 (4 connections now open)
+2018-03-06T13:53:45.100+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64594 #72 (5 connections now open)
+2018-03-06T13:53:45.102+0000 I NETWORK  [conn68] end connection 127.0.0.1:64590 (4 connections now open)
+2018-03-06T13:53:45.102+0000 I NETWORK  [conn69] end connection 127.0.0.1:64591 (3 connections now open)
+2018-03-06T13:53:45.103+0000 I NETWORK  [conn70] end connection 127.0.0.1:64592 (2 connections now open)
+2018-03-06T13:53:45.103+0000 I NETWORK  [conn71] end connection 127.0.0.1:64593 (1 connection now open)
+2018-03-06T13:53:45.103+0000 I NETWORK  [conn72] end connection 127.0.0.1:64594 (0 connections now open)
+2018-03-06T13:53:46.235+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64595 #73 (1 connection now open)
+2018-03-06T13:53:46.236+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64596 #74 (2 connections now open)
+2018-03-06T13:53:46.236+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64597 #75 (3 connections now open)
+2018-03-06T13:53:46.237+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64598 #76 (4 connections now open)
+2018-03-06T13:53:46.238+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64599 #77 (5 connections now open)
+2018-03-06T13:53:46.240+0000 I NETWORK  [conn73] end connection 127.0.0.1:64595 (4 connections now open)
+2018-03-06T13:53:46.240+0000 I NETWORK  [conn74] end connection 127.0.0.1:64596 (3 connections now open)
+2018-03-06T13:53:46.240+0000 I NETWORK  [conn75] end connection 127.0.0.1:64597 (2 connections now open)
+2018-03-06T13:53:46.240+0000 I NETWORK  [conn76] end connection 127.0.0.1:64598 (1 connection now open)
+2018-03-06T13:53:46.240+0000 I NETWORK  [conn77] end connection 127.0.0.1:64599 (0 connections now open)
+2018-03-06T13:54:35.441+0000 I CONTROL  [thread79] Ctrl-C signal
+2018-03-06T13:54:35.441+0000 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-03-06T13:54:35.442+0000 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-03-06T13:54:35.443+0000 F CONTROL  [thread3] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-03-06T13:54:35.443+0000 F CONTROL  [thread3] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-03-06T13:54:35.475+0000 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-03-06T13:54:35.488+0000 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-03-06T13:54:35.861+0000 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-03-06T13:54:35.865+0000 I CONTROL  [consoleTerminate] now exiting
+2018-03-06T13:54:35.866+0000 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-03-06T13:58:16.446+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten] MongoDB starting : pid=3212 port=27017 dbpath=d:\StreamTwoProjectPokemon\data 64-bit host=MSI-GE60
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten] db version v3.6.1
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten] git version: 025d4f4fe61efd1fb6f0005be20cb45a004093d1
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten] modules: none
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten] build environment:
+2018-03-06T13:58:17.538+0000 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-03-06T13:58:17.539+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-03-06T13:58:17.539+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-03-06T13:58:17.539+0000 I CONTROL  [initandlisten] options: { config: "d:\StreamTwoProjectPokemon\data\config\mongoconfig.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "d:\StreamTwoProjectPokemon\data" }, systemLog: { destination: "file", logAppend: true, path: "d:\StreamTwoProjectPokemon\data\logs\pokemonLog" } }
+2018-03-06T13:58:17.540+0000 I -        [initandlisten] Detected data files in d:\StreamTwoProjectPokemon\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-03-06T13:58:17.541+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3543M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-03-06T13:58:18.311+0000 I STORAGE  [initandlisten] WiredTiger message [1520344698:310895][3212:140735930175616], txn-recover: Main recovery loop: starting at 4/30976
+2018-03-06T13:58:18.894+0000 I STORAGE  [initandlisten] WiredTiger message [1520344698:894323][3212:140735930175616], txn-recover: Recovering log 4 through 5
+2018-03-06T13:58:19.164+0000 I STORAGE  [initandlisten] WiredTiger message [1520344699:163513][3212:140735930175616], txn-recover: Recovering log 5 through 5
+2018-03-06T13:58:19.851+0000 I CONTROL  [initandlisten] 
+2018-03-06T13:58:19.851+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-03-06T13:58:19.851+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-03-06T13:58:19.851+0000 I CONTROL  [initandlisten] 
+2018-03-06T13:58:19.851+0000 I CONTROL  [initandlisten] 
+2018-03-06T13:58:19.852+0000 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-03-06T13:58:19.852+0000 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-03-06T13:58:19.852+0000 I CONTROL  [initandlisten] 
+2018-03-06T13:58:20.555+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'd:/StreamTwoProjectPokemon/data/diagnostic.data'
+2018-03-06T13:58:20.633+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-03-06T13:58:55.600+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64676 #1 (1 connection now open)
+2018-03-06T13:58:55.601+0000 I NETWORK  [conn1] received client metadata from 127.0.0.1:64676 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:58:55.605+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64677 #2 (2 connections now open)
+2018-03-06T13:58:55.606+0000 I NETWORK  [conn2] received client metadata from 127.0.0.1:64677 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:58:55.627+0000 I NETWORK  [conn1] end connection 127.0.0.1:64676 (1 connection now open)
+2018-03-06T13:58:55.627+0000 I NETWORK  [conn2] end connection 127.0.0.1:64677 (0 connections now open)
+2018-03-06T13:58:58.696+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64684 #3 (1 connection now open)
+2018-03-06T13:58:58.697+0000 I NETWORK  [conn3] received client metadata from 127.0.0.1:64684 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:58:58.702+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64685 #4 (2 connections now open)
+2018-03-06T13:58:58.703+0000 I NETWORK  [conn4] received client metadata from 127.0.0.1:64685 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:58:58.739+0000 I NETWORK  [conn3] end connection 127.0.0.1:64684 (1 connection now open)
+2018-03-06T13:58:58.739+0000 I NETWORK  [conn4] end connection 127.0.0.1:64685 (0 connections now open)
+2018-03-06T13:59:00.432+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64690 #5 (1 connection now open)
+2018-03-06T13:59:00.432+0000 I NETWORK  [conn5] received client metadata from 127.0.0.1:64690 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:59:00.435+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64691 #6 (2 connections now open)
+2018-03-06T13:59:00.435+0000 I NETWORK  [conn6] received client metadata from 127.0.0.1:64691 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T13:59:00.448+0000 I NETWORK  [conn5] end connection 127.0.0.1:64690 (1 connection now open)
+2018-03-06T13:59:00.448+0000 I NETWORK  [conn6] end connection 127.0.0.1:64691 (0 connections now open)
+2018-03-06T14:00:58.955+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64861 #7 (1 connection now open)
+2018-03-06T14:00:58.956+0000 I NETWORK  [conn7] received client metadata from 127.0.0.1:64861 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:00:58.968+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64862 #8 (2 connections now open)
+2018-03-06T14:00:58.975+0000 I NETWORK  [conn8] received client metadata from 127.0.0.1:64862 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:00:59.041+0000 I NETWORK  [conn7] end connection 127.0.0.1:64861 (1 connection now open)
+2018-03-06T14:00:59.041+0000 I NETWORK  [conn8] end connection 127.0.0.1:64862 (0 connections now open)
+2018-03-06T14:01:08.865+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64881 #9 (1 connection now open)
+2018-03-06T14:01:08.868+0000 I NETWORK  [conn9] received client metadata from 127.0.0.1:64881 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:01:08.888+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64882 #10 (2 connections now open)
+2018-03-06T14:01:08.890+0000 I NETWORK  [conn10] received client metadata from 127.0.0.1:64882 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:01:08.940+0000 I NETWORK  [conn9] end connection 127.0.0.1:64881 (1 connection now open)
+2018-03-06T14:01:08.941+0000 I NETWORK  [conn10] end connection 127.0.0.1:64882 (0 connections now open)
+2018-03-06T14:01:10.246+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64889 #11 (1 connection now open)
+2018-03-06T14:01:10.247+0000 I NETWORK  [conn11] received client metadata from 127.0.0.1:64889 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:01:10.254+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64890 #12 (2 connections now open)
+2018-03-06T14:01:10.256+0000 I NETWORK  [conn12] received client metadata from 127.0.0.1:64890 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:01:10.312+0000 I NETWORK  [conn11] end connection 127.0.0.1:64889 (1 connection now open)
+2018-03-06T14:01:10.312+0000 I NETWORK  [conn12] end connection 127.0.0.1:64890 (0 connections now open)
+2018-03-06T14:01:36.649+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64936 #13 (1 connection now open)
+2018-03-06T14:01:36.650+0000 I NETWORK  [conn13] received client metadata from 127.0.0.1:64936 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:01:36.658+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64937 #14 (2 connections now open)
+2018-03-06T14:01:36.658+0000 I NETWORK  [conn14] received client metadata from 127.0.0.1:64937 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:01:36.701+0000 I NETWORK  [conn13] end connection 127.0.0.1:64936 (1 connection now open)
+2018-03-06T14:01:36.701+0000 I NETWORK  [conn14] end connection 127.0.0.1:64937 (0 connections now open)
+2018-03-06T14:07:32.536+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:64999 #15 (1 connection now open)
+2018-03-06T14:07:32.539+0000 I NETWORK  [conn15] received client metadata from 127.0.0.1:64999 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:07:32.550+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:65002 #16 (2 connections now open)
+2018-03-06T14:07:32.552+0000 I NETWORK  [conn16] received client metadata from 127.0.0.1:65002 conn: { driver: { name: "PyMongo", version: "3.6.0" }, os: { type: "Windows", name: "Windows 8.1", architecture: "AMD64", version: "6.3.9600-" }, platform: "CPython 2.7.14.final.0" }
+2018-03-06T14:07:32.589+0000 I NETWORK  [conn15] end connection 127.0.0.1:64999 (1 connection now open)
+2018-03-06T14:07:32.589+0000 I NETWORK  [conn16] end connection 127.0.0.1:65002 (0 connections now open)
+2018-03-06T14:13:15.427+0000 I CONTROL  [thread17] Ctrl-C signal
+2018-03-06T14:13:15.428+0000 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-03-06T14:13:15.428+0000 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-03-06T14:13:15.429+0000 F CONTROL  [thread18] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-03-06T14:13:15.429+0000 F CONTROL  [thread18] Encountered an error in PeriodicRunnerASIO: The I/O operation has been aborted because of either a thread exit or an application request.
+2018-03-06T14:13:15.429+0000 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-03-06T14:13:15.440+0000 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-03-06T14:13:16.148+0000 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-03-06T14:13:16.150+0000 I CONTROL  [consoleTerminate] now exiting
+2018-03-06T14:13:16.150+0000 I CONTROL  [consoleTerminate] shutting down with code:12
