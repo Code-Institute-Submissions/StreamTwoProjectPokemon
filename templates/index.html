@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Pokemon Dashboard</title>
-    <link rel=stylesheet" href="{{ url_for ('static',
-        filename='lib/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel=stylesheet" href="{{ url_for ('static',
         filename='lib/css/keen-dashboards.css') }}">
     <link rel=stylesheet" href="{{ url_for ('static',
         filename='lib/css/dc.css') }}">
     <link rel=stylesheet" href="{{ url_for ('static',
         filename='css/custom.css') }}">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
+    <script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand">Pokemon Dashboard</a>
@@ -59,12 +67,4 @@
     </div>
 </div>
 </body>
-<script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
-<script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
-<script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
-<script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
-<script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
-<script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
-<script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
-<script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
 </html>

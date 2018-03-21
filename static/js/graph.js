@@ -8,6 +8,19 @@ function makeGraphs(error, pokemonDataProjects){
         throw error;
     }
 
+    //clean data
+    pokemonDataProjects.forEach(function(d){
+        d["Total"] = +d["Total"];
+        d["HP"] = +d["HP"];
+        d["Attack"] = +d["Attack"];
+        d["Defense"] = +d["Defense"];
+        d["Sp Attack"] = +d["Sp Attack"];
+        d["Sp Defense"] = +d["Sp Defense"];
+        d["Speed"] = +d["Speed"];
+        d["Generation"] = +d["Generation"];
+        d["id"] = +d["id"];
+    })
+
     //create the crossfilter instance
     var ndx = crossfilter(pokemonDataProjects);
 
@@ -51,6 +64,9 @@ function makeGraphs(error, pokemonDataProjects){
     var idDim = ndx.dimension(function (d){
         return d["id"];
     });
+    var splitDim = ndx.dimension(function(d){
+        return d.Attack;
+    });
 
     //calculate the metrics
     var numProjectsByName = nameDim.group();
@@ -69,11 +85,8 @@ function makeGraphs(error, pokemonDataProjects){
 
     var all = ndx.groupAll();
 
-    var minGen = generationDim.bottom(1)[0]["Generation"];
-    var maxGen = generationDim.top(1)[0]["Generation"];
-
     //Charts
-    var generationChart = dc.lineChart("#pokemon-generation-chart");
+    var generationChart = dc.barChart("#pokemon-generation-chart");
     var pokemonPieChart = dc.pieChart("#pokemon-pie");
     var mainMenu = dc.selectMenu("#pokemenu-main");
     var selectMenu = dc.selectMenu("#pokemenu-select");
@@ -90,19 +103,34 @@ function makeGraphs(error, pokemonDataProjects){
         })
         .group(all);
 
+    selectMenu
+        .dimension(nameDim)
+        .group(numProjectsByName);
+
+
     generationChart
-        .ordinalColors(["#C96A23"])
-        .width(1200)
-        .height(300)
-        .margins({top: 30, right: 50, bottom: 30, left: 50})
+        .ordinalColors(["#79CED7", "#66AFB2", "#C96A23", "#D3D1C5", "#F5821F"])
+        .width(500)
+        .height(250)
+        .margins({top: 60, right: 30, bottom: 30, left: 30})
         .dimension(generationDim)
         .group(numProjectsByGeneration)
-        .renderArea(true)
-        .transitionDuration(500)
-        .xAxis().ticks(1)
-        .elasticY(true)
         .xAxisLabel("Generation")
-        .yAxis().ticks(6);
+        .yAxisLabel("No. Of Pokemon")
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal);
+
+    pokemonPieChart
+        .width(300)
+        .height(300)
+        .dimension(type1Dim)
+        .group(numProjectsByType1);
+
+    splitPie
+        .width(300)
+        .height(300)
+        .dimension(type1Dim)
+        .group(numProjectsByType1);
 
     dc.renderAll();
 }
