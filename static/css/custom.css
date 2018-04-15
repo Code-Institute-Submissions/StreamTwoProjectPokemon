@@ -1,3 +1,18 @@
-#pokemon-generation-chart{
-    font-size: 60px;
+.container{
+    padding-top: 60px;
+    width: 80%;
+}
+
+.dc-table-head{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.dc-table-column{
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    border: thin solid;
 }

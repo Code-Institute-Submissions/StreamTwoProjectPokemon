@@ -19,14 +19,6 @@ def home():
     return render_template("home.html")
 
 
-@app.route('/teambuilder')
-def teambuilder():
-    """
-    Flask view to serve the team building page
-    """
-    return render_template("teambuilder.html")
-
-
 @app.route("/pokemonData/pokemon")
 def pokemon_data():
     """

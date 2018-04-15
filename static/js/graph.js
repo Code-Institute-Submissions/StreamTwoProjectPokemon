@@ -14,8 +14,8 @@ function makeGraphs(error, pokemonDataProjects){
         d["HP"] = +d["HP"];
         d["Attack"] = +d["Attack"];
         d["Defense"] = +d["Defense"];
-        d["Sp Attack"] = +d["Sp Attack"];
-        d["Sp Defense"] = +d["Sp Defense"];
+        d["SpAtk"] = +d["SpAtk"];
+        d["SpDef"] = +d["SpDef"];
         d["Speed"] = +d["Speed"];
         d["Generation"] = +d["Generation"];
         d["id"] = +d["id"];
@@ -32,7 +32,7 @@ function makeGraphs(error, pokemonDataProjects){
         return d["Type 1"];
     });
     var type2Dim = ndx.dimension(function (d){
-        return d["Type 2"];
+        return d["Type2"];
     });
     var totalDim = ndx.dimension(function (d){
         return d["Total"];
@@ -47,10 +47,10 @@ function makeGraphs(error, pokemonDataProjects){
         return d["Defense"];
     });
     var spAttackDim = ndx.dimension(function (d){
-        return d["Sp Attack"];
+        return d["SpAtk"];
     });
     var spDefenseDim = ndx.dimension(function (d){
-        return d["Sp Defense"];
+        return d["SpDef"];
     });
     var speedDim = ndx.dimension(function (d){
         return d["Speed"];
@@ -63,9 +63,6 @@ function makeGraphs(error, pokemonDataProjects){
     });
     var idDim = ndx.dimension(function (d){
         return d["id"];
-    });
-    var splitDim = ndx.dimension(function(d){
-        return d.Attack;
     });
 
     //calculate the metrics
@@ -89,48 +86,45 @@ function makeGraphs(error, pokemonDataProjects){
     var generationChart = dc.barChart("#pokemon-generation-chart");
     var pokemonPieChart = dc.pieChart("#pokemon-pie");
     var mainMenu = dc.selectMenu("#pokemenu-main");
-    var selectMenu = dc.selectMenu("#pokemenu-select");
-    var projectsND = dc.numberDisplay("#pokemon-data-nd");
-    var comparisonChart = dc.lineChart("#team-comparison-chart");
-    var splitPie = dc.pieChart("#type-split-pie");
-    var teamMenu = dc.selectMenu("#teambuilder-menu");
-    var teamSelectMenu = dc.selectMenu("#team-select");
+    var mainMenu1 = dc.selectMenu("#pokemenu-main1");
+    var projectsND = dc.dataTable("#pokemon-data-nd");
 
-    projectsND
-        .formatNumber(d3.format("d"))
-        .valueAccessor(function(d){
-            return d;
-        })
-        .group(all);
-
-    selectMenu
+    mainMenu
         .dimension(nameDim)
         .group(numProjectsByName);
-
+    mainMenu1
+        .dimension(legendaryDim)
+        .group(numProjectsByLegendary);
 
     generationChart
         .ordinalColors(["#79CED7", "#66AFB2", "#C96A23", "#D3D1C5", "#F5821F"])
-        .width(500)
-        .height(250)
-        .margins({top: 60, right: 30, bottom: 30, left: 30})
+        .width(700)
+        .height(350)
+        .margins({top: 30, right: 30, bottom: 30, left: 30})
         .dimension(generationDim)
         .group(numProjectsByGeneration)
         .xAxisLabel("Generation")
         .yAxisLabel("No. Of Pokemon")
         .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal);
+        .xUnits(dc.units.ordinal)
+        .elasticY(true);
 
     pokemonPieChart
-        .width(300)
-        .height(300)
+        .width(500)
+        .height(350)
         .dimension(type1Dim)
-        .group(numProjectsByType1);
+        .group(numProjectsByType1)
+        .legend(dc.legend());
 
-    splitPie
-        .width(300)
-        .height(300)
-        .dimension(type1Dim)
-        .group(numProjectsByType1);
+    projectsND
+        .dimension(idDim)
+        .group(function(d){
+            return d.value;
+        })
+        .size(Infinity)
+        .width(700)
+        .columns(['id','Name','Type 1','Generation','Legendary'])
+        .order(d3.ascending);
 
     dc.renderAll();
 }

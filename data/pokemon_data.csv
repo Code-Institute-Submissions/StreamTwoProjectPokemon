@@ -1,4 +1,4 @@
-id,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp Atk,Sp Def,Speed,Generation,Legendary
+id,Name,Type 1,Type2,Total,HP,Attack,Defense,SpAtk,SpDef,Speed,Generation,Legendary
 1,Bulbasaur,Grass,Poison,318,45,49,49,65,65,45,1,FALSE
 2,Ivysaur,Grass,Poison,405,60,62,63,80,80,60,1,FALSE
 3,Venusaur,Grass,Poison,525,80,82,83,100,100,80,1,FALSE
@@ -149,7 +149,7 @@ id,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp Atk,Sp Def,Speed,Generation,Leg
 148,Dragonair,Dragon,,420,61,84,65,70,70,70,1,FALSE
 149,Dragonite,Dragon,Flying,600,91,134,95,100,100,80,1,FALSE
 150,Mewtwo,Psychic,,680,106,110,90,154,90,130,1,TRUE
-151,Mew,Psychic,,600,100,100,100,100,100,100,1,FALSE
+151,Mew,Psychic,,600,100,100,100,100,100,100,1,TRUE
 152,Chikorita,Grass,,318,45,49,65,49,65,45,2,FALSE
 153,Bayleef,Grass,,405,60,62,80,63,80,60,2,FALSE
 154,Meganium,Grass,,525,80,82,100,83,100,80,2,FALSE
