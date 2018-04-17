@@ -2,12 +2,12 @@ from flask import Flask
 from flask import render_template
 from pymongo import MongoClient
 import json
+import os
 
 app = Flask(__name__)
 
-MONGO_HOST = 'localhost'
-MONGO_PORT = 27017
-DBS_NAME = 'pokemonData'
+MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
+DBS_NAME = os.getenv('MONGO_DB_NAME', 'pokemonData')
 COLLECTION_NAME = 'pokemon'
 
 
@@ -44,7 +44,7 @@ def pokemon_data():
         'Legendary': True
     }
 
-    with MongoClient(MONGO_HOST, MONGO_PORT) as conn:
+    with MongoClient(MONGO_URI) as conn:
         collection = conn[DBS_NAME][COLLECTION_NAME]
         pokemon = collection.find(projection=FIELDS, limit=1000)
         return json.dumps(list(pokemon))
