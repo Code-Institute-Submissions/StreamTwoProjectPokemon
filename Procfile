@@ -1,1 +1,1 @@
-web: gunicorn stream_two_project_pokemon:app
+web: gunicorn StreamTwoProjectPokemon:app
