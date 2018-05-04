@@ -6,11 +6,14 @@ import os
 
 app = Flask(__name__)
 
-MONGODB_HOST = 'localhost'
-MONGODB_PORT = 27017
-DBS_NAME = 'pokemon'
-# MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
-# DBS_NAME = os.getenv('MONGO_DB_NAME', 'pokemonData')
+# For hosting locally
+# MONGODB_HOST = 'localhost'
+# MONGODB_PORT = 27017
+# DBS_NAME = 'pokemon'
+
+# For hosting on Heroku
+MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
+DBS_NAME = os.getenv('MONGO_DB_NAME', 'pokemonData')
 COLLECTION_NAME = 'pokemon_data'
 
 
@@ -47,15 +50,17 @@ def pokemon_data():
         'Legendary': True
     }
 
-    # with MongoClient(MONGO_URI) as conn:
-    #     collection = conn[DBS_NAME][COLLECTION_NAME]
-    #     pokemon = collection.find(projection=FIELDS, limit=1000)
-    #     return json.dumps(list(pokemon))
-
-    with MongoClient(MONGODB_HOST, MONGODB_PORT) as conn:
+    # For hosting on Heroku
+    with MongoClient(MONGO_URI) as conn:
         collection = conn[DBS_NAME][COLLECTION_NAME]
         pokemon = collection.find(projection=FIELDS, limit=1000)
         return json.dumps(list(pokemon))
+
+    # For hosting locally
+    # with MongoClient(MONGODB_HOST, MONGODB_PORT) as conn:
+    #     collection = conn[DBS_NAME][COLLECTION_NAME]
+    #     pokemon = collection.find(projection=FIELDS, limit=1000)
+    #     return json.dumps(list(pokemon))
 
 
 if __name__ == '__main__':
