@@ -29,7 +29,7 @@ function makeGraphs(error, pokemonDataProjects){
         return d["Name"];
     });
     var type1Dim = ndx.dimension(function (d){
-        return d["Type 1"];
+        return d["Type1"];
     });
     var type2Dim = ndx.dimension(function (d){
         return d["Type2"];
@@ -87,7 +87,7 @@ function makeGraphs(error, pokemonDataProjects){
     var pokemonPieChart = dc.pieChart("#pokemon-pie");
     var mainMenu = dc.selectMenu("#pokemenu-main");
     var mainMenu1 = dc.selectMenu("#pokemenu-main1");
-    var projectsND = dc.dataTable("#pokemon-data-nd");
+    var pokemonDT = dc.dataTable("#pokemon-data-table");
 
     mainMenu
         .dimension(nameDim)
@@ -116,14 +116,14 @@ function makeGraphs(error, pokemonDataProjects){
         .group(numProjectsByType1)
         .legend(dc.legend());
 
-    projectsND
+    pokemonDT
         .dimension(idDim)
         .group(function(d){
             return d.value;
         })
         .size(Infinity)
         .width(700)
-        .columns(['id','Name','Type 1','Generation','Legendary'])
+        .columns(['id','Name','Type1','Generation','Legendary'])
         .order(d3.ascending);
 
     dc.renderAll();

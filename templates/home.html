@@ -1,18 +1,25 @@
 {% extends "index.html" %}
 
 {% block paragraph %}
-    <p>Here are some visual representations of all of the current Pokemon!
-        The bar chart charts the number of pokemon in any given generation,
-        while the pie chart shows the overall split in the primary type of
-        all pokemon.<br>
-        Using the menus, and clicking on the charts, you can see the splits
-        of the pokemon and the spread they have. It's interesting to see how
-        types are split through each generation and even more interesting when
-        you see breakdowns of the legendary pokemon, with the more popular types
-        used in each generation.<br>
-        Play around with the data and see how each generation of Pokemon was made up!
-        Which is the most popular type in each generation? How many fire type
-        legendaries are there? and across which generations?</p>
+    <div class="chart-wrapper">
+        <div class="chart-title">
+            Introduction
+        </div>
+        <div class="chart-stage">
+            <p>Here are some visual representations of all of the current Pokemon!
+                The bar chart charts the number of pokemon in any given generation,
+                while the pie chart shows the overall split in the primary type of
+                all pokemon.<br>
+                Using the menus, and clicking on the charts, you can see the splits
+                of the pokemon and the spread they have. It's interesting to see how
+                types are split through each generation and even more interesting when
+                you see breakdowns of the legendary pokemon, with the more popular types
+                used in each generation.<br>
+                Play around with the data and see how each generation of Pokemon was made up!
+                Which is the most popular type in each generation? How many fire type
+                legendaries are there? and across which generations?</p>
+        </div>
+    </div>
 {% endblock %}
 {% block graph %}
     <div class="chart-wrapper">
@@ -61,7 +68,7 @@
             Pokemon Data
         </div>
         <div class="chart-stage">
-            <div id="pokemon-data-nd"></div>
+            <div id="pokemon-data-table"></div>
         </div>
     </div>
 {% endblock %}

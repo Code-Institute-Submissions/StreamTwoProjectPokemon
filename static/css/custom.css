@@ -16,3 +16,8 @@
     font-weight: normal;
     border: thin solid;
 }
+
+.dc-table-group{
+    visibility: hidden;
+    font-size: 0;
+}

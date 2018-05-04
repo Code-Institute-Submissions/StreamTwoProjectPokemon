@@ -6,8 +6,11 @@ import os
 
 app = Flask(__name__)
 
-MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
-DBS_NAME = os.getenv('MONGO_DB_NAME', 'pokemonData')
+MONGODB_HOST = 'localhost'
+MONGODB_PORT = 27017
+DBS_NAME = 'pokemon'
+# MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
+# DBS_NAME = os.getenv('MONGO_DB_NAME', 'pokemonData')
 COLLECTION_NAME = 'pokemon_data'
 
 
@@ -31,20 +34,25 @@ def pokemon_data():
         '_id': False,
         'id': True,
         'Name': True,
-        'Type 1': True,
-        'Type 2': True,
+        'Type1': True,
+        'Type2': True,
         'Total': True,
         'HP': True,
         'Attack': True,
         'Defense': True,
-        'Sp Atk': True,
-        'Sp Def': True,
+        'SpAtk': True,
+        'SpDef': True,
         'Speed': True,
         'Generation': True,
         'Legendary': True
     }
 
-    with MongoClient(MONGO_URI) as conn:
+    # with MongoClient(MONGO_URI) as conn:
+    #     collection = conn[DBS_NAME][COLLECTION_NAME]
+    #     pokemon = collection.find(projection=FIELDS, limit=1000)
+    #     return json.dumps(list(pokemon))
+
+    with MongoClient(MONGODB_HOST, MONGODB_PORT) as conn:
         collection = conn[DBS_NAME][COLLECTION_NAME]
         pokemon = collection.find(projection=FIELDS, limit=1000)
         return json.dumps(list(pokemon))
