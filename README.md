@@ -10,14 +10,18 @@ generations.
 
 ### Included Features
 
-- Crossfilter
-- DC
-- D3
+- Crossfilter, D3, DC
+    - These three were used to build the dynamic graphs in this app. At their core they take in the data supplied
+    and are manipulated to build complex graphs and tables
 - Bootstrap
+    - Bootstrap wraps around the project allowing for easy positioning and layouts for the page
 - Keen-dashboard
-- JQuery
-- Queue
+    - Keen is well used for applying css to the graphs to make them look nice without having to do it manually
 - Flask
+    - This is what the entire project is based around. With python code in a Flask project it's simple to be able to
+    convert the csv data into readable JSON style. This data is then split and given values based on the id's and
+    columns. This is done at the start of the app and the page can then be built and used in conjuntion with
+    crossfilter, D3 and DC to visualise the data.
 
 ## Tech Used
 
@@ -29,6 +33,7 @@ generations.
 - Crossfilter
 - DC
 - D3
+- Heroku for hosting
 
 ## Testing
 
@@ -78,3 +83,19 @@ to hidden and the font size to 0.
 
 ### Hosting updated project onto Heroku
 
+Currently this project is already hosted on Heroku at:
+
+[Pokemon App](https://still-fjord-55118.herokuapp.com/)
+
+To make contributions to the project live, the user must have the login details for this heroku account first.
+
+Much like uploading to github, the process is still the same, assuming no changes were made to the data csv used
+for the project.
+
+In the commandline for the project running
+
+```
+git add .
+git commit -m "commit message"
+git push heroku master
+```

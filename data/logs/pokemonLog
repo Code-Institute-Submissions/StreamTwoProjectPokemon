@@ -4591,3 +4591,39 @@
 2018-04-24T13:34:53.980+0100 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
 2018-04-24T13:34:53.981+0100 I CONTROL  [consoleTerminate] now exiting
 2018-04-24T13:34:53.982+0100 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-05-04T19:44:18.474+0100 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] MongoDB starting : pid=4496 port=27017 dbpath=d:\StreamTwoProjectPokemon\data 64-bit host=MSI-GE60
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] db version v3.6.1
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] git version: 025d4f4fe61efd1fb6f0005be20cb45a004093d1
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] modules: none
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] build environment:
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten]     distarch: x86_64
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-05-04T19:44:19.576+0100 I CONTROL  [initandlisten] options: { config: "d:\StreamTwoProjectPokemon\data\config\mongoconfig.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "d:\StreamTwoProjectPokemon\data" }, systemLog: { destination: "file", logAppend: true, path: "d:\StreamTwoProjectPokemon\data\logs\pokemonLog" } }
+2018-05-04T19:44:19.592+0100 I -        [initandlisten] Detected data files in d:\StreamTwoProjectPokemon\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-05-04T19:44:19.592+0100 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3543M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-05-04T19:44:20.366+0100 I STORAGE  [initandlisten] WiredTiger message [1525459460:365243][4496:140710682693760], txn-recover: Main recovery loop: starting at 23/124800
+2018-05-04T19:44:20.779+0100 I STORAGE  [initandlisten] WiredTiger message [1525459460:778539][4496:140710682693760], txn-recover: Recovering log 23 through 24
+2018-05-04T19:44:21.238+0100 I STORAGE  [initandlisten] WiredTiger message [1525459461:237877][4496:140710682693760], txn-recover: Recovering log 24 through 24
+2018-05-04T19:44:22.022+0100 I CONTROL  [initandlisten] 
+2018-05-04T19:44:22.022+0100 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-05-04T19:44:22.022+0100 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-05-04T19:44:22.023+0100 I CONTROL  [initandlisten] 
+2018-05-04T19:44:22.023+0100 I CONTROL  [initandlisten] 
+2018-05-04T19:44:22.024+0100 I CONTROL  [initandlisten] ** WARNING: The file system cache of this machine is configured to be greater than 40% of the total memory. This can lead to increased memory pressure and poor performance.
+2018-05-04T19:44:22.024+0100 I CONTROL  [initandlisten] See http://dochub.mongodb.org/core/wt-windows-system-file-cache
+2018-05-04T19:44:22.024+0100 I CONTROL  [initandlisten] 
+2018-05-04T19:44:22.433+0100 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'd:/StreamTwoProjectPokemon/data/diagnostic.data'
+2018-05-04T19:44:22.437+0100 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-05-08T11:48:04.777+0100 I CONTROL  [thread1] Ctrl-C signal
+2018-05-08T11:48:04.821+0100 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-05-08T11:48:04.875+0100 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-05-08T11:48:04.969+0100 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-05-08T11:48:04.990+0100 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-05-08T11:48:05.416+0100 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-05-08T11:48:05.453+0100 I CONTROL  [consoleTerminate] now exiting
+2018-05-08T11:48:05.460+0100 I CONTROL  [consoleTerminate] shutting down with code:12
