@@ -99,3 +99,10 @@ git add .
 git commit -m "commit message"
 git push heroku master
 ```
+
+## Extra notes
+
+Learning to build this project was made possible by [The Code Institute](http://lms.codeinstitute.net/). By following
+the units on building a basic data dashboard, I have learned how to build this app. I followed the steps that it set
+out but diverged where I needed the app to come into its own to serve its own purpose. This code was written by me,
+but using the dashboard project as a reference to help learn throughout.
